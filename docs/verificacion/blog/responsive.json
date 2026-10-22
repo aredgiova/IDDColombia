@@ -1,0 +1,72 @@
+[
+  {
+    "route": "/blog",
+    "requestedWidth": 320,
+    "h1": 1,
+    "scroll": 305,
+    "width": 305
+  },
+  {
+    "route": "/blog",
+    "requestedWidth": 375,
+    "h1": 1,
+    "scroll": 360,
+    "width": 360
+  },
+  {
+    "route": "/blog",
+    "requestedWidth": 768,
+    "h1": 1,
+    "scroll": 753,
+    "width": 753
+  },
+  {
+    "route": "/blog",
+    "requestedWidth": 1024,
+    "h1": 1,
+    "scroll": 1009,
+    "width": 1009
+  },
+  {
+    "route": "/blog",
+    "requestedWidth": 1440,
+    "h1": 1,
+    "scroll": 1425,
+    "width": 1425
+  },
+  {
+    "route": "/blog/juventud-colombiana-esperanza",
+    "requestedWidth": 320,
+    "h1": 1,
+    "scroll": 305,
+    "width": 305
+  },
+  {
+    "route": "/blog/juventud-colombiana-esperanza",
+    "requestedWidth": 375,
+    "h1": 1,
+    "scroll": 360,
+    "width": 360
+  },
+  {
+    "route": "/blog/juventud-colombiana-esperanza",
+    "requestedWidth": 768,
+    "h1": 1,
+    "scroll": 753,
+    "width": 753
+  },
+  {
+    "route": "/blog/juventud-colombiana-esperanza",
+    "requestedWidth": 1024,
+    "h1": 1,
+    "scroll": 1009,
+    "width": 1009
+  },
+  {
+    "route": "/blog/juventud-colombiana-esperanza",
+    "requestedWidth": 1440,
+    "h1": 1,
+    "scroll": 1425,
+    "width": 1425
+  }
+]

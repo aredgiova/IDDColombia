@@ -1,0 +1,25 @@
+[
+  {
+    "test": "Cauca conserva dos congregaciones",
+    "status": "2 congregaciones encontradas"
+  },
+  {
+    "test": "Cambiar departamento restablece ciudad",
+    "status": "3 congregaciones encontradas",
+    "city": ""
+  },
+  {
+    "test": "Departamento sin fichas",
+    "status": "0 congregaciones encontradas",
+    "message": "El directorio institucional aún no publica congregaciones en este departamento. Puedes consultar otro departamento o contactar a la oficina nacional."
+  },
+  {
+    "test": "Preselección mediante URL",
+    "status": "2 congregaciones encontradas"
+  },
+  {
+    "client": 375,
+    "scroll": 375,
+    "test": "Ancho móvil"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "test": "Búsqueda sin tildes y mayúsculas",
+    "status": "1 carpeta encontrada",
+    "name": "Credencialización"
+  },
+  {
+    "test": "Buscar por sigla",
+    "status": "1 carpeta encontrada",
+    "name": "Educación (FETP)"
+  },
+  {
+    "test": "Búsqueda sin coincidencias",
+    "status": "0 carpetas encontradas",
+    "recovery": true
+  },
+  {
+    "test": "Restablecer búsqueda",
+    "count": 3,
+    "focus": "library-search"
+  },
+  {
+    "test": "Destinos y pestaña nueva",
+    "links": [
+      {
+        "href": "https://www.iglesiadedioscolombia.com/biblioteca/b3c2719b-7e69-4ed1-ab7b-d68e5b7ff650",
+        "rel": "noopener noreferrer",
+        "target": "_blank"
+      },
+      {
+        "href": "https://www.iglesiadedioscolombia.com/biblioteca",
+        "rel": "noopener noreferrer",
+        "target": "_blank"
+      },
+      {
+        "href": "https://www.iglesiadedioscolombia.com/biblioteca",
+        "rel": "noopener noreferrer",
+        "target": "_blank"
+      }
+    ]
+  }
+]

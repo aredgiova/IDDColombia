@@ -1,0 +1,42 @@
+[
+  {
+    "file": "logo-iglesia.png",
+    "width": 696,
+    "height": 176,
+    "format": "png",
+    "bytes": 26541,
+    "alpha": true
+  },
+  {
+    "file": "comunidad-formacion.webp",
+    "width": 1400,
+    "height": 560,
+    "format": "webp",
+    "bytes": 82594,
+    "alpha": false
+  },
+  {
+    "file": "comunidad-bogota.webp",
+    "width": 1400,
+    "height": 1050,
+    "format": "webp",
+    "bytes": 107084,
+    "alpha": false
+  },
+  {
+    "file": "comunidad-piendamo.webp",
+    "width": 715,
+    "height": 712,
+    "format": "webp",
+    "bytes": 63958,
+    "alpha": false
+  },
+  {
+    "file": "iglesia-cucuta.webp",
+    "width": 1400,
+    "height": 787,
+    "format": "webp",
+    "bytes": 96360,
+    "alpha": false
+  }
+]

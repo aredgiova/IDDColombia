@@ -1,0 +1,318 @@
+[
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\src\\app\\quienes-somos\\quienes-somos.css",
+    "line": 2,
+    "snippet": "font-size: .8rem is off the DESIGN.md type ramp",
+    "ignoreValue": ".8rem",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\src\\app\\quienes-somos\\quienes-somos.css",
+    "line": 6,
+    "snippet": "font-size: clamp(2.5rem, 4.5vw, 3.8rem) has fluid endpoints 2.5rem and 3.8rem off the DESIGN.md type ramp",
+    "ignoreValue": "2.5rem",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\src\\app\\quienes-somos\\quienes-somos.css",
+    "line": 7,
+    "snippet": "font-size: clamp(1.35rem, 2vw, 1.85rem) has fluid endpoints 1.35rem and 1.85rem off the DESIGN.md type ramp",
+    "ignoreValue": "1.35rem",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\src\\app\\quienes-somos\\quienes-somos.css",
+    "line": 12,
+    "snippet": "font-size: .8rem is off the DESIGN.md type ramp",
+    "ignoreValue": ".8rem",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\src\\app\\quienes-somos\\quienes-somos.css",
+    "line": 14,
+    "snippet": "font-size: clamp(1.65rem, 2.8vw, 2.3rem) has fluid endpoints 1.65rem and 2.3rem off the DESIGN.md type ramp",
+    "ignoreValue": "1.65rem",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\src\\app\\quienes-somos\\quienes-somos.css",
+    "line": 20,
+    "snippet": "font-size: 1.15rem is off the DESIGN.md type ramp",
+    "ignoreValue": "1.15rem",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\src\\app\\quienes-somos\\quienes-somos.css",
+    "line": 25,
+    "snippet": "font-size: clamp(1.7rem, 3vw, 2.5rem) has fluid endpoints 1.7rem and 2.5rem off the DESIGN.md type ramp",
+    "ignoreValue": "1.7rem",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\src\\app\\quienes-somos\\quienes-somos.css",
+    "line": 29,
+    "snippet": "font-size: clamp(2.2rem, 4vw, 3.5rem) has fluid endpoints 2.2rem and 3.5rem off the DESIGN.md type ramp",
+    "ignoreValue": "2.2rem",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\src\\app\\quienes-somos\\quienes-somos.css",
+    "line": 30,
+    "snippet": "font-size: 1.05rem is off the DESIGN.md type ramp",
+    "ignoreValue": "1.05rem",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\src\\app\\quienes-somos\\quienes-somos.css",
+    "line": 37,
+    "snippet": "font-size: .75rem is off the DESIGN.md type ramp",
+    "ignoreValue": ".75rem",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\src\\app\\quienes-somos\\quienes-somos.css",
+    "line": 43,
+    "snippet": "font-size: clamp(1.65rem, 2.5vw, 2.15rem) has fluid endpoints 1.65rem and 2.15rem off the DESIGN.md type ramp",
+    "ignoreValue": "1.65rem",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\src\\app\\quienes-somos\\quienes-somos.css",
+    "line": 44,
+    "snippet": "font-size: 1.1rem is off the DESIGN.md type ramp",
+    "ignoreValue": "1.1rem",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\src\\app\\quienes-somos\\quienes-somos.css",
+    "line": 53,
+    "snippet": "font-size: .95rem is off the DESIGN.md type ramp",
+    "ignoreValue": ".95rem",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\src\\app\\quienes-somos\\quienes-somos.css",
+    "line": 54,
+    "snippet": "font-size: .8rem is off the DESIGN.md type ramp",
+    "ignoreValue": ".8rem",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\src\\app\\quienes-somos\\quienes-somos.css",
+    "line": 57,
+    "snippet": "font-size: 1.12rem is off the DESIGN.md type ramp",
+    "ignoreValue": "1.12rem",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\src\\app\\quienes-somos\\quienes-somos.css",
+    "line": 62,
+    "snippet": "font-size: .8rem is off the DESIGN.md type ramp",
+    "ignoreValue": ".8rem",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\src\\app\\quienes-somos\\quienes-somos.css",
+    "line": 76,
+    "snippet": "font-size: .78rem is off the DESIGN.md type ramp",
+    "ignoreValue": ".78rem",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\src\\app\\quienes-somos\\quienes-somos.css",
+    "line": 85,
+    "snippet": "font-size: .8rem is off the DESIGN.md type ramp",
+    "ignoreValue": ".8rem",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\src\\app\\quienes-somos\\quienes-somos.css",
+    "line": 88,
+    "snippet": "font-size: 1.5rem is off the DESIGN.md type ramp",
+    "ignoreValue": "1.5rem",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\src\\app\\quienes-somos\\quienes-somos.css",
+    "line": 94,
+    "snippet": "font-size: .82rem is off the DESIGN.md type ramp",
+    "ignoreValue": ".82rem",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\src\\app\\quienes-somos\\quienes-somos.css",
+    "line": 100,
+    "snippet": "font-size: .78rem is off the DESIGN.md type ramp",
+    "ignoreValue": ".78rem",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\src\\components\\layout\\about-navigation.css",
+    "line": 57,
+    "snippet": "font-size: .78rem is off the DESIGN.md type ramp",
+    "ignoreValue": ".78rem"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\src\\components\\layout\\about-navigation.css",
+    "line": 82,
+    "snippet": "font-size: .78rem is off the DESIGN.md type ramp",
+    "ignoreValue": ".78rem"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "clientWidth": 305,
+    "documentWidth": 305,
+    "h1": 1,
+    "imagesLoaded": true,
+    "menuVisible": true,
+    "overflow": [],
+    "width": 320
+  },
+  {
+    "clientWidth": 360,
+    "documentWidth": 360,
+    "h1": 1,
+    "imagesLoaded": true,
+    "menuVisible": true,
+    "overflow": [],
+    "width": 375
+  },
+  {
+    "clientWidth": 753,
+    "documentWidth": 753,
+    "h1": 1,
+    "imagesLoaded": true,
+    "menuVisible": true,
+    "overflow": [],
+    "width": 768
+  },
+  {
+    "clientWidth": 1009,
+    "documentWidth": 1009,
+    "h1": 1,
+    "imagesLoaded": true,
+    "menuVisible": false,
+    "overflow": [],
+    "width": 1024
+  },
+  {
+    "clientWidth": 1425,
+    "documentWidth": 1425,
+    "h1": 1,
+    "imagesLoaded": true,
+    "menuVisible": false,
+    "overflow": [],
+    "width": 1440
+  }
+]

@@ -1,0 +1,14 @@
+# Copias públicas sin procesar: conservar localmente como evidencia, no publicar.
+docs/investigacion/fuentes-html/
+docs/activos/originales/
+docs/verificacion/*.log
+node_modules/
+.next/
+out/
+.vercel/
+.env*
+!.env.example
+*.tsbuildinfo
+npm-debug.log*
+.DS_Store
+Thumbs.db

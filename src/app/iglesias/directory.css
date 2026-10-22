@@ -1,0 +1,95 @@
+.directory-intro { background: var(--pale); padding-bottom: 56px; border-bottom: 1px solid var(--line); }
+.directory-breadcrumb { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; padding-top: 18px; color: var(--muted); font-size: .8125rem; }
+.directory-breadcrumb a { display: inline-flex; min-height: 44px; align-items: center; }
+.directory-breadcrumb a:hover { text-decoration: underline; text-underline-offset: 4px; }
+.directory-intro-layout { display: grid; grid-template-columns: minmax(0, 1fr) 340px; align-items: center; gap: 80px; margin-top: 32px; }
+.directory-intro h1 { max-width: 17ch; font-size: var(--type-display); letter-spacing: -.035em; }
+.directory-intro-layout > div > p { max-width: 58ch; margin-top: 24px; color: var(--muted); line-height: 1.8; }
+.directory-intro figure img { display: block; width: 100%; aspect-ratio: 1.8; object-fit: cover; border-radius: var(--radius); }
+.directory-intro figcaption { margin-top: 8px; color: var(--muted); font-size: .75rem; }
+.directory-content { padding-block: 48px 72px; }
+.directory-filters { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr) minmax(0, 1fr); gap: 24px; padding-bottom: 28px; border-bottom: 1px solid var(--line); }
+.directory-filters > div { min-width: 0; }
+.directory-filters label { display: block; font-size: .875rem; font-weight: 700; margin-bottom: 10px; }
+.directory-search-input { position: relative; }
+.directory-search-input > svg { position: absolute; inset: 17px auto auto 17px; width: 21px; height: 21px; color: var(--muted); pointer-events: none; }
+.directory-filters input, .directory-filters select { width: 100%; min-width: 0; min-height: 56px; border: 1px solid var(--control-border); border-radius: var(--radius-control); background: white; color: var(--ink); font: inherit; font-size: 1rem; }
+.directory-filters input:hover, .directory-filters select:hover { border-color: var(--blue); }
+.directory-filters input { padding: 14px 16px 14px 49px; }
+.directory-filters input::placeholder { color: var(--muted); opacity: 1; }
+.directory-filters select { padding: 14px 34px 14px 16px; }
+.directory-results-heading { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; min-height: 84px; gap: 0 20px; padding-block: 15px; color: var(--muted); font-size: .875rem; }
+.directory-results-heading strong { color: var(--ink); font-weight: 700; }
+.directory-reset { padding: 10px 0; min-height: 44px; border: 0; background: transparent; color: var(--blue); font-size: .87rem; font-weight: 600; text-decoration: underline; text-underline-offset: 4px; }
+.directory-reset:hover { color: var(--blue-hover); }
+.directory-list { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.directory-list > li { border-bottom: 1px solid var(--line); }
+.church-entry { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr) minmax(0, .9fr); gap: 44px; padding-block: 40px; }
+.church-location h3 { font-size: 1.5rem; line-height: 1.3; letter-spacing: -.025em; }
+.church-name { font-size: .9375rem; font-weight: 600; color: var(--blue); margin-top: 8px; }
+.church-location address { font-size: .875rem; font-style: normal; color: var(--muted); margin-top: 18px; overflow-wrap: anywhere; }
+.church-map { margin-top: 6px; font-size: .875rem; }
+.church-facts { margin: 0; display: grid; gap: 18px; }
+.church-facts dt { font-weight: 700; font-size: .8125rem; margin-bottom: 5px; }
+.church-facts dd { margin: 0; font-size: .875rem; color: var(--muted); overflow-wrap: anywhere; }
+.church-story { margin-top: 13px; }
+.church-story summary { cursor: pointer; min-height: 44px; padding-block: 10px; font-size: .875rem; font-weight: 600; color: var(--blue); width: fit-content; }
+.church-story summary:hover { text-decoration: underline; text-underline-offset: 4px; }
+.church-story p { color: var(--muted); font-size: .875rem; margin-top: 6px; max-width: 65ch; }
+.church-contact { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; }
+.church-contact svg { width: 18px; height: 18px; }
+.church-phone, .church-email { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; max-width: 100%; font-size: .875rem; }
+.church-phone { font-weight: 600; color: var(--blue); }
+.church-email { font-size: .8125rem; align-items: flex-start; padding-block: 10px; color: var(--muted); }
+.church-email svg { margin-top: 2px; }
+.church-email span, .church-email-unconfirmed span { overflow-wrap: anywhere; min-width: 0; }
+.church-phone:hover, .church-email:hover { text-decoration: underline; text-underline-offset: 4px; }
+.church-email-unconfirmed { font-size: .8125rem; color: var(--muted); max-width: 100%; padding-top: 10px; }
+.church-email-unconfirmed p { font-size: .75rem; margin-top: 5px; }
+.directory-empty { padding: 52px 24px; text-align: center; background: var(--pale); border-radius: var(--radius); }
+.directory-empty h3 { font-size: 1.5rem; }
+.directory-empty p { color: var(--muted); max-width: 50ch; margin: 16px auto 25px; }
+.directory-help { display: flex; align-items: center; justify-content: space-between; gap: 40px; padding-block: 48px 28px; }
+.directory-help h2 { font-size: var(--type-title); letter-spacing: -.025em; }
+.directory-help p { color: var(--muted); font-size: .9375rem; margin-top: 10px; max-width: 62ch; }
+.directory-help .button { flex-shrink: 0; }
+.directory-source { font-size: .8125rem; color: var(--muted); max-width: 85ch; }
+.directory-source a { text-decoration: underline; text-underline-offset: 4px; }
+
+@media (max-width: 1100px) {
+  .directory-filters { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .directory-search-field { grid-column: 1 / -1; }
+  .directory-intro-layout { grid-template-columns: minmax(0, 1fr) 280px; gap: 40px; }
+  .church-entry { grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); gap: 12px 40px; }
+  .church-contact { grid-column: 2; }
+  .church-location { grid-row: span 2; }
+}
+
+@media (max-width: 767px) {
+  .directory-intro { padding-bottom: 36px; }
+  .directory-breadcrumb { padding-top: 10px; }
+  .directory-intro-layout { grid-template-columns: 1fr; gap: 24px; margin-top: 24px; }
+  .directory-intro h1 { font-size: var(--type-display); }
+  .directory-intro-layout > div > p { font-size: .9375rem; margin-top: 20px; }
+  .directory-intro figure { display: none; }
+  .directory-content { padding-block: 32px 48px; }
+  .directory-filters { grid-template-columns: 1fr; gap: 18px; }
+  .directory-filters label { font-size: .875rem; margin-bottom: 8px; }
+  .directory-filters input { padding-left: 42px; font-size: 1rem; }
+  .directory-search-input > svg { left: 13px; width: 19px; }
+  .directory-results-heading { min-height: 78px; }
+  .church-entry { grid-template-columns: 1fr; gap: 24px; padding-block: 32px; }
+  .church-location { grid-row: auto; }
+  .church-location h3 { font-size: 1.5rem; }
+  .church-contact { grid-column: auto; gap: 2px; }
+  .church-location address { margin-top: 12px; }
+  .church-map { margin-top: 2px; }
+  .church-facts { gap: 16px; }
+  .church-facts dd { font-size: .9375rem; }
+  .church-phone { font-size: .9375rem; }
+  .church-email { font-size: .875rem; }
+  .church-story { margin-top: 10px; }
+  .church-story summary { font-size: .875rem; }
+  .directory-empty { padding: 32px 20px; }
+  .directory-help { flex-direction: column; align-items: flex-start; gap: 22px; padding-block: 36px 26px; }
+}

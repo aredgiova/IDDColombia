@@ -1,0 +1,282 @@
+[
+  {
+    "route": "/quienes-somos",
+    "width": 1440,
+    "viewport": 1440,
+    "document": 1440,
+    "brokenImages": []
+  },
+  {
+    "route": "/quienes-somos/historia",
+    "width": 1440,
+    "viewport": 1440,
+    "document": 1440,
+    "brokenImages": []
+  },
+  {
+    "route": "/quienes-somos/mision-y-vision",
+    "width": 1440,
+    "viewport": 1440,
+    "document": 1440,
+    "brokenImages": []
+  },
+  {
+    "route": "/quienes-somos/declaracion-de-fe",
+    "width": 1440,
+    "viewport": 1440,
+    "document": 1440,
+    "brokenImages": []
+  },
+  {
+    "route": "/quienes-somos/organizacion",
+    "width": 1440,
+    "viewport": 1440,
+    "document": 1440,
+    "brokenImages": []
+  },
+  {
+    "route": "/quienes-somos/ruta-estrategica",
+    "width": 1440,
+    "viewport": 1440,
+    "document": 1440,
+    "brokenImages": []
+  },
+  {
+    "route": "/quienes-somos/iglesia-internacional",
+    "width": 1440,
+    "viewport": 1440,
+    "document": 1440,
+    "brokenImages": []
+  },
+  {
+    "route": "/calendario",
+    "width": 1440,
+    "viewport": 1440,
+    "document": 1440,
+    "brokenImages": []
+  },
+  {
+    "route": "/quienes-somos",
+    "width": 390,
+    "viewport": 390,
+    "document": 390,
+    "brokenImages": []
+  },
+  {
+    "route": "/quienes-somos/historia",
+    "width": 390,
+    "viewport": 390,
+    "document": 390,
+    "brokenImages": []
+  },
+  {
+    "route": "/quienes-somos/mision-y-vision",
+    "width": 390,
+    "viewport": 390,
+    "document": 390,
+    "brokenImages": []
+  },
+  {
+    "route": "/quienes-somos/declaracion-de-fe",
+    "width": 390,
+    "viewport": 390,
+    "document": 390,
+    "brokenImages": []
+  },
+  {
+    "route": "/quienes-somos/organizacion",
+    "width": 390,
+    "viewport": 390,
+    "document": 390,
+    "brokenImages": []
+  },
+  {
+    "route": "/quienes-somos/ruta-estrategica",
+    "width": 390,
+    "viewport": 390,
+    "document": 390,
+    "brokenImages": []
+  },
+  {
+    "route": "/quienes-somos/iglesia-internacional",
+    "width": 390,
+    "viewport": 390,
+    "document": 390,
+    "brokenImages": []
+  },
+  {
+    "route": "/calendario",
+    "width": 390,
+    "viewport": 390,
+    "document": 390,
+    "brokenImages": []
+  },
+  {
+    "route": "/quienes-somos",
+    "width": 320,
+    "viewport": 320,
+    "document": 320,
+    "brokenImages": []
+  },
+  {
+    "route": "/quienes-somos/historia",
+    "width": 320,
+    "viewport": 320,
+    "document": 320,
+    "brokenImages": []
+  },
+  {
+    "route": "/quienes-somos/mision-y-vision",
+    "width": 320,
+    "viewport": 320,
+    "document": 320,
+    "brokenImages": []
+  },
+  {
+    "route": "/quienes-somos/declaracion-de-fe",
+    "width": 320,
+    "viewport": 320,
+    "document": 320,
+    "brokenImages": []
+  },
+  {
+    "route": "/quienes-somos/organizacion",
+    "width": 320,
+    "viewport": 320,
+    "document": 320,
+    "brokenImages": []
+  },
+  {
+    "route": "/quienes-somos/ruta-estrategica",
+    "width": 320,
+    "viewport": 320,
+    "document": 320,
+    "brokenImages": []
+  },
+  {
+    "route": "/quienes-somos/iglesia-internacional",
+    "width": 320,
+    "viewport": 320,
+    "document": 320,
+    "brokenImages": []
+  },
+  {
+    "route": "/calendario",
+    "width": 320,
+    "viewport": 320,
+    "document": 320,
+    "brokenImages": []
+  },
+  {
+    "route": "/quienes-somos",
+    "width": 768,
+    "viewport": 768,
+    "document": 768,
+    "brokenImages": []
+  },
+  {
+    "route": "/quienes-somos/historia",
+    "width": 768,
+    "viewport": 768,
+    "document": 768,
+    "brokenImages": []
+  },
+  {
+    "route": "/quienes-somos/mision-y-vision",
+    "width": 768,
+    "viewport": 768,
+    "document": 768,
+    "brokenImages": []
+  },
+  {
+    "route": "/quienes-somos/declaracion-de-fe",
+    "width": 768,
+    "viewport": 768,
+    "document": 768,
+    "brokenImages": []
+  },
+  {
+    "route": "/quienes-somos/organizacion",
+    "width": 768,
+    "viewport": 768,
+    "document": 768,
+    "brokenImages": []
+  },
+  {
+    "route": "/quienes-somos/ruta-estrategica",
+    "width": 768,
+    "viewport": 768,
+    "document": 768,
+    "brokenImages": []
+  },
+  {
+    "route": "/quienes-somos/iglesia-internacional",
+    "width": 768,
+    "viewport": 768,
+    "document": 768,
+    "brokenImages": []
+  },
+  {
+    "route": "/calendario",
+    "width": 768,
+    "viewport": 768,
+    "document": 768,
+    "brokenImages": []
+  },
+  {
+    "route": "/quienes-somos",
+    "width": 1024,
+    "viewport": 1024,
+    "document": 1024,
+    "brokenImages": []
+  },
+  {
+    "route": "/quienes-somos/historia",
+    "width": 1024,
+    "viewport": 1024,
+    "document": 1024,
+    "brokenImages": []
+  },
+  {
+    "route": "/quienes-somos/mision-y-vision",
+    "width": 1024,
+    "viewport": 1024,
+    "document": 1024,
+    "brokenImages": []
+  },
+  {
+    "route": "/quienes-somos/declaracion-de-fe",
+    "width": 1024,
+    "viewport": 1024,
+    "document": 1024,
+    "brokenImages": []
+  },
+  {
+    "route": "/quienes-somos/organizacion",
+    "width": 1024,
+    "viewport": 1024,
+    "document": 1024,
+    "brokenImages": []
+  },
+  {
+    "route": "/quienes-somos/ruta-estrategica",
+    "width": 1024,
+    "viewport": 1024,
+    "document": 1024,
+    "brokenImages": []
+  },
+  {
+    "route": "/quienes-somos/iglesia-internacional",
+    "width": 1024,
+    "viewport": 1024,
+    "document": 1024,
+    "brokenImages": []
+  },
+  {
+    "route": "/calendario",
+    "width": 1024,
+    "viewport": 1024,
+    "document": 1024,
+    "brokenImages": []
+  }
+]

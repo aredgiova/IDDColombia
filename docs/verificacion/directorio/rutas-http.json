@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-10-17T04:15:40.464Z",
+  "rendering": "server-dynamic",
+  "checks": [
+    {
+      "path": "/iglesias",
+      "status": 200,
+      "location": null,
+      "records": 10,
+      "contractPresent": true
+    },
+    {
+      "path": "/iglesias?departamento=19",
+      "status": 200,
+      "location": null,
+      "records": 2,
+      "contractPresent": true
+    },
+    {
+      "path": "/iglesiasdedios",
+      "status": 308,
+      "location": "/iglesias"
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "location": null
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "url": "https://www.iglesiadedioscolombia.com/biblioteca",
+  "fechaObservacionUTC": "2026-10-17",
+  "estado": "inventario_parcial_navegador_no_disponible",
+  "metodo": "Inspección previa del DOM renderizado público mediante IAB; intento posterior de abrir carpetas por interfaz.",
+  "carpetas": [
+    {
+      "url": "https://www.iglesiadedioscolombia.com/biblioteca",
+      "carpeta": "Logos",
+      "nombre": "Logos",
+      "tipo": "carpeta",
+      "itemsMostrados": 19,
+      "ultimaActualizacionMostrada": "17 dic 2024",
+      "archivos": [],
+      "nombresYTiposDeArchivoVerificados": false
+    },
+    {
+      "url": "https://www.iglesiadedioscolombia.com/biblioteca",
+      "carpeta": "Credencialización",
+      "nombre": "Credencialización",
+      "tipo": "carpeta",
+      "itemsMostrados": 2,
+      "ultimaActualizacionMostrada": "17 dic 2024",
+      "archivos": [],
+      "nombresYTiposDeArchivoVerificados": false
+    },
+    {
+      "url": "https://www.iglesiadedioscolombia.com/biblioteca",
+      "carpeta": "Educación (FETP)",
+      "nombre": "Educación (FETP)",
+      "tipo": "carpeta",
+      "itemsMostrados": 2,
+      "ultimaActualizacionMostrada": "17 dic 2024",
+      "archivos": [],
+      "nombresYTiposDeArchivoVerificados": false
+    }
+  ],
+  "limites": [
+    "La vista pública previamente observada terminó de cargar y mostró estas tres carpetas y sus conteos, pero no se habían abierto sus contenidos.",
+    "En el intento final, crear una nueva pestaña devolvió Browser is not available: iab. Reutilizar el ID de navegador conocido 3 devolvió Browser is not available: 3.",
+    "No se pudo realizar la pasada de apertura de carpetas por interfaz. Los arrays archivos vacíos significan no inspeccionado, no carpeta vacía.",
+    "No se inventaron nombres, tipos, enlaces de descarga ni URLs individuales de carpeta.",
+    "No se descargó, modificó ni eliminó ningún archivo; no se inició sesión ni se accedió a zonas restringidas.",
+    "Este archivo registra una limitación de la herramienta durante la pasada final y no demuestra un fallo de la biblioteca."
+  ]
+}

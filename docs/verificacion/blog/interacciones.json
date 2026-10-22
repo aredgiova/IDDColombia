@@ -1,0 +1,19 @@
+{
+  "mobileMenuLink": "http://127.0.0.1:3000/blog",
+  "menuClosed": true,
+  "console": [],
+  "images": [
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:3000/_next/image?url=%2Fimages%2Fblog%2Fjuventud-esperanza.jpg&w=1080&q=75"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:3000/_next/image?url=%2Fimages%2Fblog%2Figlesia-de-dios-colombia-logo.png&w=1080&q=75"
+    },
+    {
+      "loaded": true,
+      "src": "http://127.0.0.1:3000/_next/image?url=%2Fimages%2Fblog%2Ffamilia-colombiana.jpg&w=1080&q=75"
+    }
+  ]
+}

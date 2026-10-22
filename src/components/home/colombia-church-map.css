@@ -1,0 +1,79 @@
+.home-church-map { padding-top: 64px; }
+.church-map-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 32px; }
+.church-map-heading h2 { max-width: 20ch; font-size: var(--type-section); letter-spacing: -.03em; }
+.church-map-heading > p { max-width: 46ch; color: var(--muted); font-size: .9rem; }
+.church-map-layout { display: grid; grid-template-columns: minmax(0, 1fr) 360px; grid-template-rows: auto 1fr; column-gap: 64px; row-gap: 22px; padding-top: 40px; }
+.church-map-figure { grid-row: 1 / 3; min-width: 0; }
+.colombia-map { display: block; width: 100%; height: 530px; overflow: visible; }
+.map-department { fill: #f1f5f8; stroke: #7191a9; stroke-width: 1; stroke-linejoin: round; vector-effect: non-scaling-stroke; cursor: pointer; transition: fill .18s, stroke .18s; }
+.map-department.has-churches { fill: #cadfed; }
+.map-department:hover { fill: #9cbed7; stroke: var(--blue); }
+.map-department.is-selected { fill: var(--blue); stroke: var(--blue-hover); stroke-width: 1.5; }
+.map-department:focus-visible { outline: none; stroke: #b36b0a; stroke-width: 3.5; }
+.map-location-label circle { fill: #fff; stroke: var(--blue); stroke-width: 2; }
+.map-location-label text { fill: var(--blue); stroke: #fff; stroke-width: 5px; paint-order: stroke; font-size: 16px; font-weight: 800; stroke-linejoin: round; }
+.map-inset rect { fill: none; stroke: var(--line); stroke-dasharray: 4 4; }
+.map-inset text { fill: var(--muted); font-size: 14px; font-weight: 600; }
+.map-inset .map-inset-note { font-size: 11px; font-weight: 400; }
+.map-islands-caption { display: none; }
+.map-caption { padding-top: 8px; }
+.map-legend { display: flex; justify-content: center; gap: 22px; color: var(--muted); font-size: .75rem; }
+.map-legend > span { display: inline-flex; align-items: center; gap: 8px; }
+.map-legend i { display: inline-block; width: 11px; height: 11px; border: 1px solid #7191a9; border-radius: 2px; }
+.legend-published { background: #cadfed; }
+.map-legend .legend-selected { background: var(--blue); border-color: var(--blue); }
+.map-geography-source { margin-top: 10px; text-align: center; font-size: .65rem; color: var(--muted); }
+.map-geography-source a { text-decoration: underline; text-underline-offset: 3px; }
+.map-picker { grid-column: 2; }
+.map-picker label { display: block; margin-bottom: 8px; font-size: .86rem; font-weight: 700; }
+.map-picker select { display: block; width: 100%; min-height: 54px; padding: 12px 35px 12px 15px; border: 1px solid var(--control-border); border-radius: var(--radius-control); background: white; font: inherit; color: var(--ink); cursor: pointer; }
+.map-picker-hint { display: block; margin-top: 7px; font-size: .73rem; color: var(--muted); }
+.map-information-column { grid-column: 2; min-width: 0; }
+.department-information { background: var(--blue); color: white; padding: 30px; border-radius: var(--radius); }
+.department-information :focus-visible { outline-color: #b6d9f5; }
+.department-information h3 { font-size: clamp(1.65rem, 2.5vw, 2.15rem); line-height: 1.25; }
+.department-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; margin: 24px 0 0; }
+.department-stats > div + div { border-left: 1px solid #54799e; padding-left: 20px; }
+.department-stats dt { font-size: .72rem; line-height: 1.5; color: #d7e7f5; }
+.department-stats dd { margin: 4px 0 0; font-size: 2.7rem; font-weight: 700; line-height: 1.2; font-variant-numeric: tabular-nums; letter-spacing: -.03em; }
+.department-stats dd.stat-unavailable { font-size: 1rem; line-height: 1.45; letter-spacing: 0; padding-top: 6px; }
+.membership-coverage { margin-top: 14px; color: #d7e7f5; font-size: .72rem; line-height: 1.65; }
+.department-cities, .department-empty { border-top: 1px solid #54799e; margin-top: 23px; padding-top: 18px; color: #d7e7f5; font-size: .85rem; }
+.department-cities strong { color: white; font-weight: 600; }
+.department-link { display: flex; justify-content: space-between; margin-top: 22px; width: 100%; }
+.map-data-note { color: var(--muted); font-size: .76rem; margin-top: 17px; line-height: 1.65; }
+.map-data-details { font-size: .75rem; color: var(--muted); margin-top: 2px; }
+.map-data-details summary { color: var(--blue); cursor: pointer; padding-block: 10px; min-height: 44px; font-weight: 600; }
+.map-data-details p { margin-bottom: 10px; }
+.map-data-details ul { padding-left: 18px; margin-block: 10px; }
+.map-data-details li + li { margin-top: 6px; }
+.map-data-details a { display: inline-flex; align-items: center; gap: 7px; min-height: 44px; color: var(--blue); text-decoration: underline; text-underline-offset: 3px; }
+.map-data-details a svg { width: 14px; height: 14px; }
+@media (max-width: 1100px) {
+  .church-map-layout { grid-template-columns: minmax(0, 1fr) 320px; column-gap: 22px; }
+  .church-map-heading { display: block; }
+  .church-map-heading > p { margin-top: 7px; }
+  .colombia-map { height: 500px; }
+  .department-information { padding: 24px; }
+}
+@media (max-width: 767px) {
+  .home-church-map { padding-top: 40px; }
+  .church-map-heading h2 { font-size: var(--type-section); }
+  .church-map-heading > p { max-width: 43ch; margin-top: 16px; font-size: .9rem; }
+  .church-map-layout { display: flex; flex-direction: column; gap: 18px; padding-top: 22px; }
+  .map-picker { order: 0; }
+  .church-map-figure { order: 1; }
+  .map-information-column { order: 2; }
+  .colombia-map { width: 100%; height: auto; max-height: 470px; }
+  .map-legend { gap: 15px; flex-wrap: wrap; font-size: .68rem; }
+  .map-caption { padding-top: 4px; }
+  .map-inset text { display: none; }
+  .map-islands-caption { display: block; margin-top: 10px; text-align: center; color: var(--muted); font-size: .72rem; }
+  .map-geography-source { font-size: .6rem; }
+  .department-information { padding: 24px; }
+  .department-information h3 { font-size: 1.8rem; }
+  .department-stats { margin-top: 20px; }
+  .department-stats dd { font-size: 2.5rem; }
+  .department-stats dd.stat-unavailable { font-size: .95rem; }
+  .map-data-note { margin-top: 14px; }
+}

@@ -1,0 +1,213 @@
+[
+  {
+    "test": "Atlántico + Soledad",
+    "result": "2 congregaciones encontradas"
+  },
+  {
+    "test": "Cambiar a Cauca reinicia ciudad",
+    "result": "2 congregaciones encontradas",
+    "city": ""
+  },
+  {
+    "test": "Limpiar filtros",
+    "result": "10 congregaciones en este directorio"
+  },
+  {
+    "test": "91",
+    "expected": "Amazonas",
+    "title": "Amazonas",
+    "radio": "Amazonas"
+  },
+  {
+    "test": "05",
+    "expected": "Antioquia",
+    "title": "Antioquia",
+    "radio": "Antioquia"
+  },
+  {
+    "test": "81",
+    "expected": "Arauca",
+    "title": "Arauca",
+    "radio": "Arauca"
+  },
+  {
+    "test": "08",
+    "expected": "Atlántico",
+    "title": "Atlántico",
+    "radio": "Atlántico"
+  },
+  {
+    "test": "11",
+    "expected": "Bogotá D.C.",
+    "title": "Bogotá D.C.",
+    "radio": "Bogotá D.C."
+  },
+  {
+    "test": "13",
+    "expected": "Bolívar",
+    "title": "Bolívar",
+    "radio": "Bolívar"
+  },
+  {
+    "test": "15",
+    "expected": "Boyacá",
+    "title": "Boyacá",
+    "radio": "Boyacá"
+  },
+  {
+    "test": "17",
+    "expected": "Caldas",
+    "title": "Caldas",
+    "radio": "Caldas"
+  },
+  {
+    "test": "18",
+    "expected": "Caquetá",
+    "title": "Caquetá",
+    "radio": "Caquetá"
+  },
+  {
+    "test": "85",
+    "expected": "Casanare",
+    "title": "Casanare",
+    "radio": "Casanare"
+  },
+  {
+    "test": "19",
+    "expected": "Cauca",
+    "title": "Cauca",
+    "radio": "Cauca"
+  },
+  {
+    "test": "20",
+    "expected": "Cesar",
+    "title": "Cesar",
+    "radio": "Cesar"
+  },
+  {
+    "test": "27",
+    "expected": "Chocó",
+    "title": "Chocó",
+    "radio": "Chocó"
+  },
+  {
+    "test": "23",
+    "expected": "Córdoba",
+    "title": "Córdoba",
+    "radio": "Córdoba"
+  },
+  {
+    "test": "25",
+    "expected": "Cundinamarca",
+    "title": "Cundinamarca",
+    "radio": "Cundinamarca"
+  },
+  {
+    "test": "94",
+    "expected": "Guainía",
+    "title": "Guainía",
+    "radio": "Guainía"
+  },
+  {
+    "test": "95",
+    "expected": "Guaviare",
+    "title": "Guaviare",
+    "radio": "Guaviare"
+  },
+  {
+    "test": "41",
+    "expected": "Huila",
+    "title": "Huila",
+    "radio": "Huila"
+  },
+  {
+    "test": "44",
+    "expected": "La Guajira",
+    "title": "La Guajira",
+    "radio": "La Guajira"
+  },
+  {
+    "test": "47",
+    "expected": "Magdalena",
+    "title": "Magdalena",
+    "radio": "Magdalena"
+  },
+  {
+    "test": "50",
+    "expected": "Meta",
+    "title": "Meta",
+    "radio": "Meta"
+  },
+  {
+    "test": "52",
+    "expected": "Nariño",
+    "title": "Nariño",
+    "radio": "Nariño"
+  },
+  {
+    "test": "54",
+    "expected": "Norte de Santander",
+    "title": "Norte de Santander",
+    "radio": "Norte de Santander"
+  },
+  {
+    "test": "86",
+    "expected": "Putumayo",
+    "title": "Putumayo",
+    "radio": "Putumayo"
+  },
+  {
+    "test": "63",
+    "expected": "Quindío",
+    "title": "Quindío",
+    "radio": "Quindío"
+  },
+  {
+    "test": "66",
+    "expected": "Risaralda",
+    "title": "Risaralda",
+    "radio": "Risaralda"
+  },
+  {
+    "test": "88",
+    "expected": "San Andrés, Providencia y Santa Catalina",
+    "title": "San Andrés, Providencia y Santa Catalina",
+    "radio": "San Andrés, Providencia y Santa Catalina"
+  },
+  {
+    "test": "68",
+    "expected": "Santander",
+    "title": "Santander",
+    "radio": "Santander"
+  },
+  {
+    "test": "70",
+    "expected": "Sucre",
+    "title": "Sucre",
+    "radio": "Sucre"
+  },
+  {
+    "test": "73",
+    "expected": "Tolima",
+    "title": "Tolima",
+    "radio": "Tolima"
+  },
+  {
+    "test": "76",
+    "expected": "Valle del Cauca",
+    "title": "Valle del Cauca",
+    "radio": "Valle del Cauca"
+  },
+  {
+    "test": "97",
+    "expected": "Vaupés",
+    "title": "Vaupés",
+    "radio": "Vaupés"
+  },
+  {
+    "test": "99",
+    "expected": "Vichada",
+    "title": "Vichada",
+    "radio": "Vichada"
+  }
+]

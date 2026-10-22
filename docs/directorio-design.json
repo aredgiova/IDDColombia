@@ -1,0 +1,47 @@
+{
+  "scope": "/iglesias",
+  "kind": "local-surface-extract",
+  "inherits": "../DESIGN.md",
+  "sources": [
+    "src/app/iglesias/directory.css",
+    "src/components/churches/church-directory.tsx",
+    "src/app/globals.css"
+  ],
+  "inherited": {
+    "fontFamily": "Manrope, sans-serif",
+    "colors": ["--ink", "--muted", "--blue", "--blue-hover", "--pale", "--line"],
+    "surfaceRadius": "var(--radius)",
+    "focusOutline": "3px solid #327cbf",
+    "focusOffset": "5px"
+  },
+  "localTypography": {
+    "heading": { "fontSize": "clamp(2.35rem, 4vw, 3.6rem)", "mobileFontSize": "clamp(2.25rem, 7vw, 3.3rem)", "letterSpacing": "-0.035em" },
+    "city": { "fontSize": "1.55rem", "mobileFontSize": "1.5rem", "lineHeight": 1.3, "letterSpacing": "-0.025em" },
+    "fieldLabel": { "fontSize": "0.9rem", "mobileFontSize": "0.86rem", "fontWeight": 600 },
+    "fieldValue": { "fontSize": "1rem" },
+    "factValue": { "fontSize": "0.87rem", "mobileFontSize": "0.9rem" },
+    "storySummary": { "fontSize": "0.8rem", "mobileFontSize": "0.84rem", "fontWeight": 600 }
+  },
+  "controls": {
+    "minHeight": "56px",
+    "border": "1px solid #b4c7d9",
+    "borderRadius": "7px",
+    "searchPadding": "14px 16px 14px 49px",
+    "mobileSearchPaddingLeft": "42px",
+    "selectPadding": "14px 34px 14px 16px"
+  },
+  "rows": {
+    "columns": "minmax(0, .85fr) minmax(0, 1.15fr) minmax(0, .9fr)",
+    "gap": "44px",
+    "paddingBlock": "34px",
+    "divider": "1px solid var(--line)",
+    "mobileGap": "20px",
+    "mobilePaddingBlock": "29px"
+  },
+  "breakpoints": {
+    "max1100px": "Búsqueda a ancho completo; selectores y filas en dos columnas.",
+    "max767px": "Una columna, foto oculta y variantes tipográficas móviles."
+  },
+  "states": ["default", "filtered", "empty-search", "empty-department", "reset", "focus-visible", "hover", "details-open", "details-closed", "email-unconfirmed"],
+  "advisory": "design-system-font-size: valores locales extraídos; no constituyen una ampliación de la escala global."
+}

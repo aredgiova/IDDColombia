@@ -1,0 +1,672 @@
+Quiero iniciar la construcción de un nuevo sitio web utilizando nuestra arquitectura estándar.
+
+La aplicación debe desarrollarse con:
+
+- Next.js.
+- React.
+- TypeScript.
+- Node.js Runtime.
+- Tailwind CSS.
+- App Router.
+- API propia mediante Route Handlers de Next.js.
+- PostgreSQL + Prisma únicamente si el proyecto necesita persistencia de datos.
+- Git y GitHub.
+- Despliegue final en Vercel.
+
+IMPORTANTE:
+
+El proyecto debe estar diseñado específicamente para funcionar y desplegarse correctamente en Vercel.
+
+No utilices Express ni un servidor Node.js independiente salvo que exista una razón técnica realmente necesaria.
+
+Quiero una arquitectura full-stack basada en Next.js, modular, limpia, escalable y fácil de mantener.
+
+## OBJETIVO INICIAL
+
+Vamos a construir primero la base técnica y visual del sitio.
+
+No quiero desarrollar todas las funcionalidades de una sola vez.
+
+Primero necesitamos una estructura sólida sobre la cual iremos agregando progresivamente:
+
+- páginas;
+- componentes;
+- formularios;
+- API;
+- base de datos;
+- autenticación;
+- dashboard;
+- panel administrativo;
+- integraciones;
+- automatizaciones;
+- otras funcionalidades.
+
+## PRIMER PASO
+
+Antes de escribir código:
+
+1. Revisa completamente el repositorio actual.
+2. Identifica si ya existe una aplicación.
+3. Identifica tecnologías instaladas.
+4. Identifica archivos importantes.
+5. Detecta código existente que podamos reutilizar.
+6. No elimines código funcional sin una justificación.
+7. Si el repositorio está vacío, crea el proyecto desde cero.
+
+Después realiza la implementación inicial.
+
+## CONFIGURACIÓN DEL PROYECTO
+
+Configura el proyecto utilizando:
+
+Next.js + App Router + TypeScript + Tailwind CSS.
+
+Utiliza la estructura `src/`.
+
+La arquitectura puede organizarse aproximadamente así:
+
+src/
+  app/
+  components/
+    ui/
+    layout/
+    shared/
+  features/
+  services/
+  lib/
+  hooks/
+  types/
+  utils/
+  validations/
+  config/
+
+public/
+
+Si posteriormente utilizamos Prisma:
+
+prisma/
+
+No tienes que crear carpetas vacías innecesarias.
+
+Crea únicamente las que tengan sentido durante esta primera fase.
+
+## NEXT.JS
+
+Utiliza las capacidades nativas de Next.js siempre que sea posible.
+
+Prioriza:
+
+- Server Components;
+- Server Side Rendering cuando corresponda;
+- Static Generation cuando corresponda;
+- Incremental Static Regeneration cuando corresponda;
+- Route Handlers;
+- Server Actions para operaciones internas cuando sean útiles;
+- `next/image`;
+- `next/font`;
+- Metadata API.
+
+Evita utilizar `"use client"` innecesariamente.
+
+Los componentes deben ser Server Components por defecto.
+
+Utiliza Client Components solamente cuando exista:
+
+- interacción;
+- estado;
+- eventos;
+- hooks del navegador;
+- APIs del navegador;
+- librerías que requieran ejecución del lado cliente.
+
+Quiero minimizar el JavaScript enviado al navegador.
+
+## VERCEL
+
+Todo debe estar optimizado para:
+
+GitHub → Vercel → Producción.
+
+La aplicación debe funcionar correctamente en:
+
+- Development;
+- Preview;
+- Production.
+
+No utilices rutas absolutas locales.
+
+No dependas de un servidor ejecutándose permanentemente.
+
+No utilices el filesystem local como almacenamiento persistente.
+
+No crees `vercel.json` salvo que exista una necesidad específica.
+
+Vercel debe reconocer automáticamente el proyecto Next.js.
+
+Utiliza Node.js Runtime como runtime principal.
+
+No utilices Edge Runtime salvo que exista una razón clara.
+
+## GITHUB
+
+El proyecto utilizará GitHub.
+
+Configura correctamente:
+
+`.gitignore`
+
+`.env.example`
+
+README.md
+
+No subas:
+
+`.env`
+
+`.env.local`
+
+credenciales
+
+API Keys
+
+tokens
+
+secretos
+
+archivos temporales
+
+## VARIABLES DE ENTORNO
+
+Todas las credenciales y configuraciones privadas deben manejarse mediante variables de entorno.
+
+Las variables que deban estar disponibles en el navegador podrán utilizar:
+
+`NEXT_PUBLIC_`
+
+Pero nunca utilices `NEXT_PUBLIC_` para:
+
+- passwords;
+- API secrets;
+- tokens privados;
+- claves de servidor;
+- credenciales.
+
+## DISEÑO
+
+Quiero un sitio web:
+
+- moderno;
+- profesional;
+- limpio;
+- rápido;
+- responsive;
+- mobile first;
+- visualmente atractivo;
+- fácil de usar;
+- consistente.
+
+Evita diseños genéricos que parezcan plantillas predeterminadas.
+
+La página debe sentirse como un producto profesional hecho específicamente para este proyecto.
+
+Crea un sistema visual consistente para:
+
+- tipografías;
+- tamaños;
+- títulos;
+- párrafos;
+- colores;
+- botones;
+- tarjetas;
+- inputs;
+- sombras;
+- bordes;
+- espaciados;
+- secciones;
+- navegación.
+
+## COMPONENTES
+
+Los componentes deben ser reutilizables.
+
+Evita crear componentes excesivamente grandes.
+
+Separa correctamente:
+
+- Header;
+- Navbar;
+- Footer;
+- botones;
+- formularios;
+- cards;
+- secciones;
+- modales;
+- elementos reutilizables.
+
+Evita duplicar código.
+
+## RESPONSIVE
+
+El sitio debe funcionar correctamente en:
+
+- celulares;
+- tablets;
+- portátiles;
+- escritorio;
+- monitores grandes.
+
+Revisa especialmente:
+
+320 px
+
+375 px
+
+768 px
+
+1024 px
+
+1440 px
+
+No desarrolles pensando únicamente en escritorio.
+
+## ACCESIBILIDAD
+
+Utiliza HTML semántico.
+
+Considera:
+
+- `header`;
+- `nav`;
+- `main`;
+- `section`;
+- `article`;
+- `footer`;
+- labels;
+- botones accesibles;
+- alt en imágenes;
+- navegación mediante teclado;
+- estados focus;
+- contraste adecuado.
+
+## SEO
+
+Desde el inicio prepara correctamente el sitio para SEO.
+
+Configura:
+
+- title;
+- description;
+- metadata;
+- favicon;
+- Open Graph;
+- Twitter/X cards;
+- robots;
+- sitemap;
+- canonical cuando corresponda.
+
+Utiliza estructura HTML semántica.
+
+Los encabezados deben mantener jerarquía lógica:
+
+H1
+H2
+H3
+
+Debe existir únicamente un H1 principal por página salvo que exista una razón semántica justificada.
+
+## RENDIMIENTO
+
+Prioriza rendimiento.
+
+Evita:
+
+- JavaScript innecesario;
+- librerías pesadas;
+- imágenes sin optimizar;
+- animaciones excesivas;
+- dependencias innecesarias;
+- múltiples fuentes;
+- scripts externos innecesarios.
+
+Utiliza:
+
+`next/image`
+
+para imágenes cuando corresponda.
+
+Utiliza:
+
+`next/font`
+
+para tipografías.
+
+Busca buenos resultados en Core Web Vitals.
+
+Especialmente:
+
+- LCP;
+- CLS;
+- INP.
+
+## API
+
+Aunque inicialmente el sitio pueda tener poca lógica de backend, deja preparada la arquitectura para API.
+
+Utiliza:
+
+`src/app/api/`
+
+Crea inicialmente:
+
+GET `/api/health`
+
+que devuelva:
+
+{
+  "success": true,
+  "status": "ok",
+  "service": "web-api"
+}
+
+Posteriormente podremos crear endpoints bajo:
+
+`/api/v1/`
+
+Ejemplo:
+
+`/api/v1/users`
+
+`/api/v1/products`
+
+`/api/v1/contact`
+
+`/api/v1/auth`
+
+dependiendo de las necesidades del proyecto.
+
+## FORMATO DE RESPUESTAS API
+
+Cuando creemos APIs utiliza una respuesta consistente.
+
+Éxito:
+
+{
+  "success": true,
+  "data": {},
+  "message": null
+}
+
+Error:
+
+{
+  "success": false,
+  "data": null,
+  "message": "Descripción del error",
+  "error": {
+    "code": "ERROR_CODE"
+  }
+}
+
+Utiliza correctamente códigos HTTP.
+
+## SEGURIDAD
+
+Desde el inicio aplica buenas prácticas.
+
+Nunca confíes únicamente en validaciones del frontend.
+
+Toda información proveniente del usuario debe considerarse no confiable.
+
+Cuando sea necesario utiliza Zod para validar:
+
+- formularios;
+- API;
+- parámetros;
+- variables;
+- webhooks.
+
+No expongas datos sensibles.
+
+No escribas secretos directamente dentro del código.
+
+## BASE DE DATOS
+
+NO instales Prisma ni PostgreSQL automáticamente si todavía no los necesitamos.
+
+Primero analiza las funcionalidades del proyecto.
+
+Si necesitamos almacenar:
+
+- usuarios;
+- productos;
+- clientes;
+- formularios;
+- configuraciones;
+- contenido;
+- operaciones;
+
+podremos implementar PostgreSQL + Prisma posteriormente.
+
+Quiero evitar dependencias innecesarias desde el comienzo.
+
+## DEPENDENCIAS
+
+Antes de instalar una dependencia analiza:
+
+1. ¿Next.js ya permite hacerlo?
+2. ¿React ya permite hacerlo?
+3. ¿Node.js ya permite hacerlo?
+4. ¿es realmente necesaria?
+5. ¿está mantenida?
+6. ¿es compatible con Vercel?
+7. ¿afectará significativamente el bundle?
+
+No instales paquetes por comodidad si pueden evitarse.
+
+## PRIMERA PÁGINA
+
+Crea inicialmente una Home funcional que permita comprobar:
+
+- estructura;
+- navegación;
+- tipografía;
+- diseño;
+- responsive;
+- componentes;
+- funcionamiento general.
+
+No la llenes todavía con contenido inventado definitivo.
+
+Puedes utilizar contenido temporal claramente identificable mientras definimos el contenido real del sitio.
+
+## ESTRUCTURA INICIAL DE LA HOME
+
+Podemos iniciar con una estructura base como:
+
+Header
+
+Hero
+
+Sección principal
+
+Beneficios / características
+
+Contenido o servicios
+
+CTA
+
+Footer
+
+Esta estructura es solamente una base.
+
+Debe adaptarse posteriormente al objetivo concreto del sitio.
+
+## ANIMACIONES
+
+Si agregas animaciones:
+
+- deben ser sutiles;
+- no afectar rendimiento;
+- no dificultar accesibilidad;
+- no distraer;
+- respetar `prefers-reduced-motion`.
+
+No instales inicialmente una librería pesada de animaciones salvo que sea realmente necesaria.
+
+## ICONOS
+
+Si necesitamos iconografía, utiliza una librería ligera y consistente.
+
+No mezcles diferentes estilos de iconos sin necesidad.
+
+## CÓDIGO
+
+Quiero:
+
+- TypeScript estricto;
+- código limpio;
+- nombres claros;
+- componentes reutilizables;
+- funciones pequeñas;
+- responsabilidades separadas;
+- cero código muerto;
+- cero archivos innecesarios.
+
+Evita `any`.
+
+Si utilizas `any`, debe existir una razón técnica justificada.
+
+No agregues comentarios explicando código obvio.
+
+Comenta únicamente decisiones relevantes.
+
+## NO SOBREARQUITECTURAR
+
+Quiero una base profesional, pero no quiero complejidad innecesaria.
+
+No implementes todavía:
+
+- microservicios;
+- colas;
+- Redis;
+- Docker;
+- Kubernetes;
+- servicios separados;
+- arquitecturas complejas;
+
+salvo que posteriormente el proyecto realmente lo requiera.
+
+El objetivo inicial es:
+
+Next.js Full Stack + Vercel.
+
+## PRIMERA FASE DE TRABAJO
+
+Realiza ahora solamente lo siguiente:
+
+1. Analiza el repositorio.
+
+2. Crea o ajusta el proyecto Next.js.
+
+3. Configura TypeScript.
+
+4. Configura Tailwind CSS.
+
+5. Configura estructura del proyecto.
+
+6. Crea layout general.
+
+7. Configura fuentes.
+
+8. Configura estilos globales.
+
+9. Crea Header.
+
+10. Crea Footer.
+
+11. Crea Home inicial.
+
+12. Crea componentes reutilizables básicos.
+
+13. Configura Metadata.
+
+14. Configura sitemap.
+
+15. Configura robots.
+
+16. Crea `/api/health`.
+
+17. Crea `.env.example`.
+
+18. Actualiza `.gitignore`.
+
+19. Crea o actualiza README.
+
+20. Ejecuta lint.
+
+21. Ejecuta TypeScript check si existe.
+
+22. Ejecuta:
+
+`npm run build`
+
+23. Corrige todos los errores detectados.
+
+24. Deja el proyecto listo para hacer push a GitHub y desplegar en Vercel.
+
+## MUY IMPORTANTE
+
+No te limites a decirme qué archivos debo modificar.
+
+Realiza directamente los cambios dentro del repositorio.
+
+Puedes:
+
+- crear archivos;
+- modificar archivos;
+- ejecutar comandos;
+- instalar dependencias justificadas;
+- reorganizar código;
+- eliminar código obsoleto cuando sea seguro;
+- ejecutar build;
+- corregir errores.
+
+Si encuentras un error durante el proceso, investígalo y soluciónalo.
+
+No detengas la implementación por errores menores.
+
+## ANTES DE FINALIZAR
+
+Verifica:
+
+- que no existan errores TypeScript;
+- que no existan imports rotos;
+- que las rutas funcionen;
+- que `/api/health` funcione;
+- que la aplicación sea responsive;
+- que no existan secretos en el repositorio;
+- que `npm run build` termine correctamente;
+- que el proyecto sea compatible con Vercel.
+
+## AL TERMINAR
+
+Entrégame un resumen indicando:
+
+1. Qué encontraste inicialmente en el repositorio.
+2. Qué arquitectura implementaste.
+3. Qué archivos principales creaste.
+4. Qué archivos modificaste.
+5. Qué dependencias instalaste.
+6. Para qué sirve cada dependencia nueva.
+7. Qué componentes creaste.
+8. Qué rutas existen.
+9. Qué endpoints existen.
+10. Qué variables de entorno debemos configurar.
+11. Resultado de `npm run build`.
+12. Errores o advertencias pendientes.
+13. Estado del proyecto para Vercel.
+14. Próximo paso recomendado.
+
+Después detente.
+
+No empieces todavía a inventar o construir funcionalidades que no te haya solicitado.

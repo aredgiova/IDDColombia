@@ -1,0 +1,37 @@
+{
+  "source": "https://www.iglesiadedioscolombia.com/biblioteca",
+  "checkedAt": "2026-10-17T04:29:25.244Z",
+  "method": "Public rendered UI and Share dialog; all folders prompted sign-in; individual protected files were not accessed.",
+  "folders": [
+    {
+      "id": "logos",
+      "name": "Logos",
+      "description": "Logos compartidos por la iglesia.",
+      "itemCount": 19,
+      "updatedAt": "2024-12-17",
+      "updatedLabel": "17 dic 2024",
+      "sourceUrl": "https://www.iglesiadedioscolombia.com/biblioteca/b3c2719b-7e69-4ed1-ab7b-d68e5b7ff650",
+      "directFolderLink": true
+    },
+    {
+      "id": "credencializacion",
+      "name": "Credencialización",
+      "description": "Recursos agrupados en la carpeta de credencialización.",
+      "itemCount": 2,
+      "updatedAt": "2024-12-17",
+      "updatedLabel": "17 dic 2024",
+      "sourceUrl": "https://www.iglesiadedioscolombia.com/biblioteca",
+      "directFolderLink": false
+    },
+    {
+      "id": "educacion-fetp",
+      "name": "Educación (FETP)",
+      "description": "Recursos agrupados en la carpeta de educación FETP.",
+      "itemCount": 2,
+      "updatedAt": "2024-12-17",
+      "updatedLabel": "17 dic 2024",
+      "sourceUrl": "https://www.iglesiadedioscolombia.com/biblioteca",
+      "directFolderLink": false
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "routes": 8,
+  "redirects": [
+    {
+      "path": "/historia",
+      "status": 308,
+      "destination": "/quienes-somos/historia"
+    },
+    {
+      "path": "/misión-y-visión",
+      "status": 308,
+      "destination": "/quienes-somos/mision-y-vision"
+    },
+    {
+      "path": "/declaración-de-fe",
+      "status": 308,
+      "destination": "/quienes-somos/declaracion-de-fe"
+    },
+    {
+      "path": "/organigrama",
+      "status": 308,
+      "destination": "/quienes-somos/organizacion"
+    },
+    {
+      "path": "/copia-de-organigrama",
+      "status": 308,
+      "destination": "/quienes-somos/ruta-estrategica"
+    },
+    {
+      "path": "/iglesia-internacional",
+      "status": 308,
+      "destination": "/quienes-somos/iglesia-internacional"
+    },
+    {
+      "path": "/copia-de-historia",
+      "status": 308,
+      "destination": "/calendario"
+    }
+  ],
+  "widths": [
+    1440,
+    390,
+    320,
+    768,
+    1024
+  ],
+  "calendarMonths": 12,
+  "calendarMonthlyEntries": 95,
+  "faithStatements": 14,
+  "menuKeyboardAndNavigation": "passed",
+  "unknownRoute": 404,
+  "errors": []
+}

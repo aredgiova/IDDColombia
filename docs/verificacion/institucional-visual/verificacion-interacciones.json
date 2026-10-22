@@ -1,0 +1,48 @@
+{
+  "calendar": {
+    "monthSelect": "Diciembre de 2026",
+    "nextDisabledAtEnd": true,
+    "previous": "Noviembre de 2026"
+  },
+  "desktopNavigation": {
+    "arrowDownOpensAndFocusesFirstLink": true,
+    "escapeRestoresFocus": true
+  },
+  "mobileNavigation": {
+    "expandedFitsViewport": true,
+    "viewportHeight": 844,
+    "menuBounds": {
+      "top": 112,
+      "bottom": 844
+    },
+    "escapeRestoresFocus": true
+  },
+  "directory": {
+    "atlanticoResults": 3,
+    "emptyResults": 0,
+    "emptyRecoveryPresent": true
+  },
+  "library": {
+    "logosResults": 1,
+    "emptyRecovery": "Ver todas las carpetas",
+    "resetResults": 3
+  },
+  "map": {
+    "bogotaPublished": 1,
+    "keyboardEnd": "Vichada",
+    "keyboardHome": "Amazonas",
+    "missingMembership": "No publicado"
+  },
+  "screens": [
+    320,
+    375,
+    768,
+    1024,
+    1440
+  ],
+  "build": "passed",
+  "lint": "passed",
+  "typecheck": "passed",
+  "blogSeoScript": "passed",
+  "legacyInstitutionalScript": "Not run: missing playwright dependency; browser checks performed via CUA"
+}

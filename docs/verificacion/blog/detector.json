@@ -1,0 +1,8 @@
+{
+  "runs": 1,
+  "targets": ["src/app/blog", "src/components/blog"],
+  "findings": [
+    {"rule": "design-system-font-size", "severity": "advisory", "value": "3.5rem", "file": "src/app/blog/blog.css", "disposition": "Local maximum for long article headings; documented in BLOG-DISENO.md."},
+    {"rule": "design-system-font-size", "severity": "advisory", "value": "clamp(1.85rem, 6.2vw, 2.6rem)", "file": "src/app/blog/blog.css", "disposition": "Removed an overridden duplicate mobile declaration. No second detector run."}
+  ]
+}

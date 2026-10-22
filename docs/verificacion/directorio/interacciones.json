@@ -1,0 +1,31 @@
+[
+  {
+    "test": "Búsqueda sin tildes y mayúsculas",
+    "status": "2 congregaciones encontradas",
+    "count": 2
+  },
+  {
+    "test": "Filtros combinados sin coincidencias",
+    "status": "0 congregaciones encontradas",
+    "empty": true
+  },
+  {
+    "test": "Filtrar por pastor en Soledad",
+    "status": "1 congregación encontrada",
+    "text": "Contacto pastoral\nMario Jiménez y Rosiris Noriega\nReuniones\nMiércoles: servicio de oración 7:00–8:00 p. m.; sábados: ayunos 8:30 a. m.–12:00 m.; domingo: escuela dominical 8:30–10:00 a. m."
+  },
+  {
+    "test": "Abrir reseña",
+    "open": ""
+  },
+  {
+    "test": "Restablecer y devolver foco",
+    "count": 10,
+    "focus": "church-search"
+  },
+  {
+    "test": "Correo dudoso no enlazado",
+    "count": 0,
+    "note": true
+  }
+]

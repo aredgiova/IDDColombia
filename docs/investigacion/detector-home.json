@@ -1,0 +1,252 @@
+[
+  {
+    "antipattern": "border-accent-on-rounded",
+    "name": "Border accent on rounded element",
+    "description": "Thick accent border on a rounded card — the border clashes with the rounded corners. Remove the border or the border-radius.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\docs\\investigacion\\fuentes-html\\99c56c1e7358.html",
+    "line": 279,
+    "snippet": "border-bottom:12px solid"
+  },
+  {
+    "antipattern": "border-accent-on-rounded",
+    "name": "Border accent on rounded element",
+    "description": "Thick accent border on a rounded card — the border clashes with the rounded corners. Remove the border or the border-radius.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\docs\\investigacion\\fuentes-html\\99c56c1e7358.html",
+    "line": 279,
+    "snippet": "border-bottom:8px solid"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\docs\\investigacion\\fuentes-html\\99c56c1e7358.html",
+    "line": 109,
+    "snippet": "font-family:Arial"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\docs\\investigacion\\fuentes-html\\99c56c1e7358.html",
+    "line": 111,
+    "snippet": "font-family:Helvetica"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\docs\\investigacion\\fuentes-html\\99c56c1e7358.html",
+    "line": 178,
+    "snippet": "font-family:\"Arial"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\docs\\investigacion\\fuentes-html\\99c56c1e7358.html",
+    "line": 179,
+    "snippet": "font-family:Helvetica"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\docs\\investigacion\\fuentes-html\\99c56c1e7358.html",
+    "line": 182,
+    "snippet": "font-family:Arial"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\docs\\investigacion\\fuentes-html\\99c56c1e7358.html",
+    "line": 278,
+    "snippet": "font-family:Helvetica"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\docs\\investigacion\\fuentes-html\\99c56c1e7358.html",
+    "line": 288,
+    "snippet": "font-family: 'helvetica"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\docs\\investigacion\\fuentes-html\\99c56c1e7358.html",
+    "line": 292,
+    "snippet": "font-family: 'helvetica"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\docs\\investigacion\\fuentes-html\\99c56c1e7358.html",
+    "line": 293,
+    "snippet": "font-family: 'open sans"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\docs\\investigacion\\fuentes-html\\99c56c1e7358.html",
+    "line": 297,
+    "snippet": "font-family: 'open sans"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\docs\\investigacion\\fuentes-html\\99c56c1e7358.html",
+    "line": 803,
+    "snippet": "font-family: 'helvetica"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\docs\\investigacion\\fuentes-html\\99c56c1e7358.html",
+    "line": 807,
+    "snippet": "font-family: 'helvetica"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\docs\\investigacion\\fuentes-html\\99c56c1e7358.html",
+    "line": 808,
+    "snippet": "font-family: 'open sans"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\docs\\investigacion\\fuentes-html\\99c56c1e7358.html",
+    "line": 812,
+    "snippet": "font-family: 'open sans"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\docs\\investigacion\\fuentes-html\\99c56c1e7358.html",
+    "line": 1562,
+    "snippet": "Font-family: \"open sans"
+  },
+  {
+    "antipattern": "overused-font",
+    "name": "Overused font",
+    "description": "Inter, Roboto, Fraunces, Geist, Plus Jakarta Sans, and Space Grotesk are used on so many sites they no longer feel distinctive. Each new wave of AI-generated UIs converges on the same handful of faces. Choose a face that gives your interface personality.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\docs\\investigacion\\fuentes-html\\99c56c1e7358.html",
+    "line": 2159,
+    "snippet": "font-family:helvetica"
+  },
+  {
+    "antipattern": "layout-transition",
+    "name": "Layout property animation",
+    "description": "Animating width, height, padding, or margin causes layout thrash and janky performance. Use transform and opacity instead, or grid-template-rows for height animations.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\docs\\investigacion\\fuentes-html\\99c56c1e7358.html",
+    "line": 278,
+    "snippet": "transition: max-width"
+  },
+  {
+    "antipattern": "layout-transition",
+    "name": "Layout property animation",
+    "description": "Animating width, height, padding, or margin causes layout thrash and janky performance. Use transform and opacity instead, or grid-template-rows for height animations.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\docs\\investigacion\\fuentes-html\\99c56c1e7358.html",
+    "line": 278,
+    "snippet": "transition: width"
+  },
+  {
+    "antipattern": "layout-transition",
+    "name": "Layout property animation",
+    "description": "Animating width, height, padding, or margin causes layout thrash and janky performance. Use transform and opacity instead, or grid-template-rows for height animations.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\docs\\investigacion\\fuentes-html\\99c56c1e7358.html",
+    "line": 278,
+    "snippet": "transition: padding"
+  },
+  {
+    "antipattern": "layout-transition",
+    "name": "Layout property animation",
+    "description": "Animating width, height, padding, or margin causes layout thrash and janky performance. Use transform and opacity instead, or grid-template-rows for height animations.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\docs\\investigacion\\fuentes-html\\99c56c1e7358.html",
+    "line": 278,
+    "snippet": "transition: height"
+  },
+  {
+    "antipattern": "layout-transition",
+    "name": "Layout property animation",
+    "description": "Animating width, height, padding, or margin causes layout thrash and janky performance. Use transform and opacity instead, or grid-template-rows for height animations.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\docs\\investigacion\\fuentes-html\\99c56c1e7358.html",
+    "line": 279,
+    "snippet": "transition: width, height"
+  },
+  {
+    "antipattern": "dark-glow",
+    "name": "Glowing shadow accents",
+    "description": "Colored glow shadows — a zero-offset chromatic halo (box- or text-shadow) on any background, or any colored blurred shadow on a dark background — are the default \"cool\" look of AI-generated UIs. Use neutral elevation shadows and subtle, purposeful lighting instead.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\docs\\investigacion\\fuentes-html\\99c56c1e7358.html",
+    "line": 278,
+    "snippet": "Zero-offset box-shadow glow (#1d2d3c)"
+  },
+  {
+    "antipattern": "marquee",
+    "name": "Auto-scrolling marquee",
+    "description": "Continuously auto-scrolling content demands attention it has not earned and hides half its content at any moment. Reserve motion for content that changes; let readers move at their own pace.",
+    "severity": "warning",
+    "category": "slop",
+    "file": "C:\\Users\\User\\Documents\\ChatGPT\\IDD COLOMBIA\\docs\\investigacion\\fuentes-html\\99c56c1e7358.html",
+    "line": 0,
+    "snippet": ".V3VrQy .qVVMHO.LtS_7h:after — infinite horizontal loop animation \"LtS_7h\""
+  }
+]

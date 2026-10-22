@@ -1,0 +1,63 @@
+{
+  "routes": [
+    {
+      "path": "/blog",
+      "status": 200,
+      "title": "Blog cristiano: fe, juventud y familia | Iglesia de Dios",
+      "description": "Reflexiones de la Iglesia de Dios en Colombia sobre la fe, los valores cristianos, la juventud y la familia. Encuentra una lectura para tu vida en comunidad.",
+      "canonical": "https://www.iglesiadedioscolombia.com/blog",
+      "robots": "noindex, nofollow",
+      "structuredData": [
+        "Blog",
+        "BreadcrumbList"
+      ],
+      "socialImage": "https://www.iglesiadedioscolombia.com/images/blog/juventud-esperanza.jpg"
+    },
+    {
+      "path": "/blog/iglesia-de-dios-encuentro-transformacion",
+      "status": 200,
+      "title": "Iglesia de Dios: encuentro, fe y transformación",
+      "description": "Conoce la misión de la Iglesia de Dios y sus ministerios de evangelización, discipulado, servicio social y educación cristiana al servicio de la comunidad.",
+      "canonical": "https://www.iglesiadedioscolombia.com/blog/iglesia-de-dios-encuentro-transformacion",
+      "robots": "noindex, nofollow",
+      "structuredData": [
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "socialImage": "https://www.iglesiadedioscolombia.com/images/blog/iglesia-de-dios-colombia-logo.png",
+      "legacyRedirect": 308
+    },
+    {
+      "path": "/blog/juventud-colombiana-esperanza",
+      "status": 200,
+      "title": "Juventud colombiana: valores, liderazgo y esperanza",
+      "description": "Una reflexión sobre la juventud colombiana, los valores cristianos y el liderazgo juvenil, con espacios de fe, servicio y apoyo para construir un futuro mejor.",
+      "canonical": "https://www.iglesiadedioscolombia.com/blog/juventud-colombiana-esperanza",
+      "robots": "noindex, nofollow",
+      "structuredData": [
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "socialImage": "https://www.iglesiadedioscolombia.com/images/blog/juventud-esperanza.jpg",
+      "legacyRedirect": 308
+    },
+    {
+      "path": "/blog/familia-sociedad-colombiana",
+      "status": 200,
+      "title": "La familia en Colombia: principios bíblicos para el hogar",
+      "description": "Descubre el papel de la familia en la sociedad colombiana y los principios bíblicos de amor, respeto, comunicación y perdón que fortalecen las relaciones.",
+      "canonical": "https://www.iglesiadedioscolombia.com/blog/familia-sociedad-colombiana",
+      "robots": "noindex, nofollow",
+      "structuredData": [
+        "BlogPosting",
+        "BreadcrumbList"
+      ],
+      "socialImage": "https://www.iglesiadedioscolombia.com/images/blog/familia-colombiana.jpg",
+      "legacyRedirect": 308
+    }
+  ],
+  "sitemap": "passed",
+  "unknownSlug": 404,
+  "health": 200,
+  "contractInBuild": true
+}

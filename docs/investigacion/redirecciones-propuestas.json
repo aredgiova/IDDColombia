@@ -1,0 +1,294 @@
+{
+  "status": "DRAFT — confirmar y activar solo cuando exista el destino",
+  "rules": [
+    {
+      "source": "/about-1",
+      "destination": "/credencializacion",
+      "statusCode": 301,
+      "enabled": false,
+      "reason": "Conservar cuatro niveles y formularios Google; confirmar convocatorias y requisitos."
+    },
+    {
+      "source": "/biblioteca",
+      "destination": "/recursos",
+      "statusCode": 301,
+      "enabled": false,
+      "reason": "Navegador confirma carpetas Logos (19), Credencialización (2) y Educación FETP (2); catalogar archivos y exportar widget. HTML no incluye el contenido."
+    },
+    {
+      "source": "/capellania",
+      "destination": "/ministerios/capellania",
+      "statusCode": 301,
+      "enabled": false,
+      "reason": "Completar: contenido genérico repetido; solicitar propósito, programas, responsable y recursos."
+    },
+    {
+      "source": "/conestadas-ministerio-de-la-mujer",
+      "destination": "/ministerios/mujer",
+      "statusCode": 301,
+      "enabled": false,
+      "reason": "Completar: contenido genérico repetido; solicitar propósito, programas, responsable y recursos."
+    },
+    {
+      "source": "/conexi%C3%B3n-20-30",
+      "destination": "/conexion-2030",
+      "statusCode": 301,
+      "enabled": false,
+      "reason": "Confirmar vigencia del plan 2021–2030 y responsables."
+    },
+    {
+      "source": "/cont%C3%A1ctanos",
+      "destination": "/contacto",
+      "statusCode": 301,
+      "enabled": false,
+      "reason": "Confirmar contactos y destinatario; envío no probado."
+    },
+    {
+      "source": "/convencion2024",
+      "destination": "/agenda/convencion-2024",
+      "statusCode": 301,
+      "enabled": false,
+      "reason": "Archivar como pasado; HTML muestra aplicación no disponible y registro antiguo."
+    },
+    {
+      "source": "/copia-de-historia",
+      "destination": "/agenda",
+      "statusCode": 301,
+      "enabled": false,
+      "reason": "Calendario en imágenes; transcribir eventos y fechas desde fuente aprobada."
+    },
+    {
+      "source": "/copia-de-organigrama",
+      "destination": "/ruta-estrategica",
+      "statusCode": 301,
+      "enabled": false,
+      "reason": "Transcribir infografía y sustituir slug genérico."
+    },
+    {
+      "source": "/cuidado-y-desarrollo-ministerial",
+      "destination": "/ministerios/cuidado-ministerial",
+      "statusCode": 301,
+      "enabled": false,
+      "reason": "Completar: contenido genérico repetido; solicitar propósito, programas, responsable y recursos."
+    },
+    {
+      "source": "/declaraci%C3%B3n-de-fe",
+      "destination": "/declaracion-de-fe",
+      "statusCode": 301,
+      "enabled": false,
+      "reason": "Conservar las 14 afirmaciones doctrinales con validación institucional."
+    },
+    {
+      "source": "/educaci%C3%B3n",
+      "destination": "/ministerios/educacion",
+      "statusCode": 301,
+      "enabled": false,
+      "reason": "Conservar contenido específico; validar programas, metas, fechas y responsables."
+    },
+    {
+      "source": "/evangelismo-y-discipulado",
+      "destination": "/ministerios/evangelismo-y-discipulado",
+      "statusCode": 301,
+      "enabled": false,
+      "reason": "Completar: contenido genérico repetido; solicitar propósito, programas, responsable y recursos."
+    },
+    {
+      "source": "/eventos",
+      "destination": "/agenda",
+      "statusCode": 301,
+      "enabled": false,
+      "reason": "Contiene tres eventos de ejemplo con fechas de 2023; revisar y excluir borradores."
+    },
+    {
+      "source": "/formulario",
+      "destination": "/contacto",
+      "statusCode": 301,
+      "enabled": false,
+      "reason": "Validar propósito y consolidar si duplica contacto; no migrar campos innecesarios."
+    },
+    {
+      "source": "/generaci%C3%B3n-emergente-jovenes",
+      "destination": "/ministerios/jovenes",
+      "statusCode": 301,
+      "enabled": false,
+      "reason": "Completar: contenido genérico repetido; solicitar propósito, programas, responsable y recursos."
+    },
+    {
+      "source": "/h-max-hijos-de-pastores-al-maximo",
+      "destination": "/ministerios/h-max",
+      "statusCode": 301,
+      "enabled": false,
+      "reason": "Completar: contenido genérico repetido; solicitar propósito, programas, responsable y recursos."
+    },
+    {
+      "source": "/iglesiasdedios",
+      "destination": "/iglesias",
+      "statusCode": 301,
+      "enabled": false,
+      "reason": "10 fichas visibles; verificar cobertura, duplicados, horarios y contactos."
+    },
+    {
+      "source": "/insidencia-publica-y-social",
+      "destination": "/ministerios/incidencia-publica-y-social",
+      "statusCode": 301,
+      "enabled": false,
+      "reason": "Conservar contenido específico; validar programas, metas, fechas y responsables."
+    },
+    {
+      "source": "/ministerio-de-hombres",
+      "destination": "/ministerios/hombres",
+      "statusCode": 301,
+      "enabled": false,
+      "reason": "Completar: contenido genérico repetido; solicitar propósito, programas, responsable y recursos."
+    },
+    {
+      "source": "/ministerio-de-matrimonio-y-familia",
+      "destination": "/ministerios/matrimonio-y-familia",
+      "statusCode": 301,
+      "enabled": false,
+      "reason": "Completar: contenido genérico repetido; solicitar propósito, programas, responsable y recursos."
+    },
+    {
+      "source": "/ministerio-infantil",
+      "destination": "/ministerios/infantil",
+      "statusCode": 301,
+      "enabled": false,
+      "reason": "Completar: contenido genérico repetido; solicitar propósito, programas, responsable y recursos."
+    },
+    {
+      "source": "/misi%C3%B3n-y-visi%C3%B3n",
+      "destination": "/mision-y-vision",
+      "statusCode": 301,
+      "enabled": false,
+      "reason": "Transcribir y validar misión y visión incluidas en imágenes."
+    },
+    {
+      "source": "/misiones-transculturales",
+      "destination": "/ministerios/misiones-transculturales",
+      "statusCode": 301,
+      "enabled": false,
+      "reason": "Completar: contenido genérico repetido; solicitar propósito, programas, responsable y recursos."
+    },
+    {
+      "source": "/plantaci%C3%B3n-de-iglesias",
+      "destination": "/ministerios/plantacion-de-iglesias",
+      "statusCode": 301,
+      "enabled": false,
+      "reason": "Conservar contenido específico; validar programas, metas, fechas y responsables."
+    }
+  ],
+  "pending": [
+    {
+      "source": "/account/mi-cuenta",
+      "reason": "Inventariar con responsable autenticado antes de migrar; autorización, datos y procesos sin verificar. No redirigir a inicio ni reconstruir como formulario público."
+    },
+    {
+      "source": "/buscar-reportes-pastores",
+      "reason": "Inventariar con responsable autenticado antes de migrar; autorización, datos y procesos sin verificar. No redirigir a inicio ni reconstruir como formulario público."
+    },
+    {
+      "source": "/copia-de-buscar-reportes-pastores",
+      "reason": "Inventariar con responsable autenticado antes de migrar; autorización, datos y procesos sin verificar. No redirigir a inicio ni reconstruir como formulario público."
+    },
+    {
+      "source": "/copia-de-estadisticas-iglesia",
+      "reason": "Inventariar con responsable autenticado antes de migrar; autorización, datos y procesos sin verificar. No redirigir a inicio ni reconstruir como formulario público."
+    },
+    {
+      "source": "/copia-de-reportes",
+      "reason": "Inventariar con responsable autenticado antes de migrar; autorización, datos y procesos sin verificar. No redirigir a inicio ni reconstruir como formulario público."
+    },
+    {
+      "source": "/copia-de-reportes-iglesia",
+      "reason": "Inventariar con responsable autenticado antes de migrar; autorización, datos y procesos sin verificar. No redirigir a inicio ni reconstruir como formulario público."
+    },
+    {
+      "source": "/copia-de-reportes-pastores",
+      "reason": "Inventariar con responsable autenticado antes de migrar; autorización, datos y procesos sin verificar. No redirigir a inicio ni reconstruir como formulario público."
+    },
+    {
+      "source": "/donar",
+      "reason": "Validar programa, responsable y destino de donativos; pasarela no verificada."
+    },
+    {
+      "source": "/estadisticas-iglesia",
+      "reason": "Inventariar con responsable autenticado antes de migrar; autorización, datos y procesos sin verificar. No redirigir a inicio ni reconstruir como formulario público."
+    },
+    {
+      "source": "/events-1/dia-por-la-comunidad",
+      "reason": "Fecha 2023, descripción de editor y ubicación Madrid; confirmar descarte. No presentar como agenda colombiana vigente."
+    },
+    {
+      "source": "/events-1/proyecto-luz",
+      "reason": "Fecha 2023, descripción de editor y ubicación Madrid; confirmar descarte. No presentar como agenda colombiana vigente."
+    },
+    {
+      "source": "/events-1/sermon-previo-a-la-pascua",
+      "reason": "Fecha 2023, descripción de editor y ubicación Madrid; confirmar descarte. No presentar como agenda colombiana vigente."
+    },
+    {
+      "source": "/events-page",
+      "reason": "Contenido específico no recuperado; revisar widget y consolidación con agenda."
+    },
+    {
+      "source": "/iglesias-datos",
+      "reason": "Inventariar con responsable autenticado antes de migrar; autorización, datos y procesos sin verificar. No redirigir a inicio ni reconstruir como formulario público."
+    },
+    {
+      "source": "/items/barranquilla-",
+      "reason": "Relacionar con las 10 fichas del listado mediante ID estable; nueve URL de detalle halladas. Definir slug solo tras resolver duplicados."
+    },
+    {
+      "source": "/items/bogot%C3%A1-cundinamarca",
+      "reason": "Relacionar con las 10 fichas del listado mediante ID estable; nueve URL de detalle halladas. Definir slug solo tras resolver duplicados."
+    },
+    {
+      "source": "/items/cuc%C3%BAta",
+      "reason": "Relacionar con las 10 fichas del listado mediante ID estable; nueve URL de detalle halladas. Definir slug solo tras resolver duplicados."
+    },
+    {
+      "source": "/items/medellin",
+      "reason": "Relacionar con las 10 fichas del listado mediante ID estable; nueve URL de detalle halladas. Definir slug solo tras resolver duplicados."
+    },
+    {
+      "source": "/items/piendam%C3%B3-",
+      "reason": "Relacionar con las 10 fichas del listado mediante ID estable; nueve URL de detalle halladas. Definir slug solo tras resolver duplicados."
+    },
+    {
+      "source": "/items/piendamo-",
+      "reason": "Relacionar con las 10 fichas del listado mediante ID estable; nueve URL de detalle halladas. Definir slug solo tras resolver duplicados."
+    },
+    {
+      "source": "/items/planeta-rica",
+      "reason": "Relacionar con las 10 fichas del listado mediante ID estable; nueve URL de detalle halladas. Definir slug solo tras resolver duplicados."
+    },
+    {
+      "source": "/items/santa-marta--",
+      "reason": "Relacionar con las 10 fichas del listado mediante ID estable; nueve URL de detalle halladas. Definir slug solo tras resolver duplicados."
+    },
+    {
+      "source": "/items/soledad",
+      "reason": "Relacionar con las 10 fichas del listado mediante ID estable; nueve URL de detalle halladas. Definir slug solo tras resolver duplicados."
+    },
+    {
+      "source": "/miembros",
+      "reason": "Inventariar con responsable autenticado antes de migrar; autorización, datos y procesos sin verificar. No redirigir a inicio ni reconstruir como formulario público."
+    },
+    {
+      "source": "/reportes",
+      "reason": "Navegador confirma acceso por contraseña (Solo para invitados). Inventariar con responsable autorizado; no reconstruir como formulario público."
+    },
+    {
+      "source": "/reportes-pastores",
+      "reason": "Inventariar con responsable autenticado antes de migrar; autorización, datos y procesos sin verificar. No redirigir a inicio ni reconstruir como formulario público."
+    },
+    {
+      "source": "/servicios",
+      "reason": "Validar origen de horarios 10:00 y 18:00; no aplicar a todas las congregaciones."
+    },
+    {
+      "source": "/ubicaciones",
+      "reason": "Solo estructura compartida en HTML; confirmar propósito antes de fusionar."
+    }
+  ]
+}

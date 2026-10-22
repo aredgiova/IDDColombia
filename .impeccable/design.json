@@ -1,0 +1,534 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-17T05:26:03.078Z",
+  "title": "Design System: Iglesia de Dios en Colombia",
+  "extensions": {
+    "colorMeta": {
+      "blue": {
+        "role": "primary",
+        "displayName": "Azul institucional profundo",
+        "tonalRamp": [
+          "oklch(15% 0.0627 246.57)",
+          "oklch(26% 0.0627 246.57)",
+          "oklch(38% 0.0627 246.57)",
+          "oklch(49% 0.0627 246.57)",
+          "oklch(61% 0.0627 246.57)",
+          "oklch(72% 0.0627 246.57)",
+          "oklch(84% 0.0627 246.57)",
+          "oklch(95% 0.0627 246.57)"
+        ]
+      },
+      "blue-hover": {
+        "role": "primary",
+        "displayName": "Azul institucional en hover",
+        "tonalRamp": [
+          "oklch(15% 0.0489 246.91)",
+          "oklch(26% 0.0489 246.91)",
+          "oklch(38% 0.0489 246.91)",
+          "oklch(49% 0.0489 246.91)",
+          "oklch(61% 0.0489 246.91)",
+          "oklch(72% 0.0489 246.91)",
+          "oklch(84% 0.0489 246.91)",
+          "oklch(95% 0.0489 246.91)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Azul de énfasis",
+        "tonalRamp": [
+          "oklch(15% 0.0891 243.27)",
+          "oklch(26% 0.0891 243.27)",
+          "oklch(38% 0.0891 243.27)",
+          "oklch(49% 0.0891 243.27)",
+          "oklch(61% 0.0891 243.27)",
+          "oklch(72% 0.0891 243.27)",
+          "oklch(84% 0.0891 243.27)",
+          "oklch(95% 0.0891 243.27)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Tinta azul",
+        "tonalRamp": [
+          "oklch(15% 0.0477 245.71)",
+          "oklch(26% 0.0477 245.71)",
+          "oklch(38% 0.0477 245.71)",
+          "oklch(49% 0.0477 245.71)",
+          "oklch(61% 0.0477 245.71)",
+          "oklch(72% 0.0477 245.71)",
+          "oklch(84% 0.0477 245.71)",
+          "oklch(95% 0.0477 245.71)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Gris azulado",
+        "tonalRamp": [
+          "oklch(15% 0.0356 245.60)",
+          "oklch(26% 0.0356 245.60)",
+          "oklch(38% 0.0356 245.60)",
+          "oklch(49% 0.0356 245.60)",
+          "oklch(61% 0.0356 245.60)",
+          "oklch(72% 0.0356 245.60)",
+          "oklch(84% 0.0356 245.60)",
+          "oklch(95% 0.0356 245.60)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "Blanco",
+        "tonalRamp": [
+          "oklch(15% 0.0000 0.00)",
+          "oklch(26% 0.0000 0.00)",
+          "oklch(38% 0.0000 0.00)",
+          "oklch(49% 0.0000 0.00)",
+          "oklch(61% 0.0000 0.00)",
+          "oklch(72% 0.0000 0.00)",
+          "oklch(84% 0.0000 0.00)",
+          "oklch(95% 0.0000 0.00)"
+        ]
+      },
+      "pale": {
+        "role": "neutral",
+        "displayName": "Gris pálido",
+        "tonalRamp": [
+          "oklch(15% 0.0042 236.50)",
+          "oklch(26% 0.0042 236.50)",
+          "oklch(38% 0.0042 236.50)",
+          "oklch(49% 0.0042 236.50)",
+          "oklch(61% 0.0042 236.50)",
+          "oklch(72% 0.0042 236.50)",
+          "oklch(84% 0.0042 236.50)",
+          "oklch(95% 0.0042 236.50)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Línea fría",
+        "tonalRamp": [
+          "oklch(15% 0.0137 240.97)",
+          "oklch(26% 0.0137 240.97)",
+          "oklch(38% 0.0137 240.97)",
+          "oklch(49% 0.0137 240.97)",
+          "oklch(61% 0.0137 240.97)",
+          "oklch(72% 0.0137 240.97)",
+          "oklch(84% 0.0137 240.97)",
+          "oklch(95% 0.0137 240.97)"
+        ]
+      },
+      "control-border": {
+        "role": "neutral",
+        "displayName": "Borde de control",
+        "tonalRamp": [
+          "oklch(15% 0.0400 242.20)",
+          "oklch(26% 0.0400 242.20)",
+          "oklch(38% 0.0400 242.20)",
+          "oklch(49% 0.0400 242.20)",
+          "oklch(61% 0.0400 242.20)",
+          "oklch(72% 0.0400 242.20)",
+          "oklch(84% 0.0400 242.20)",
+          "oklch(95% 0.0400 242.20)"
+        ]
+      },
+      "light-hover": {
+        "role": "neutral",
+        "displayName": "Respuesta del botón claro",
+        "tonalRamp": [
+          "oklch(15% 0.0180 245.39)",
+          "oklch(26% 0.0180 245.39)",
+          "oklch(38% 0.0180 245.39)",
+          "oklch(49% 0.0180 245.39)",
+          "oklch(61% 0.0180 245.39)",
+          "oklch(72% 0.0180 245.39)",
+          "oklch(84% 0.0180 245.39)",
+          "oklch(95% 0.0180 245.39)"
+        ]
+      },
+      "on-blue-muted": {
+        "role": "neutral",
+        "displayName": "Texto suave sobre azul",
+        "tonalRamp": [
+          "oklch(15% 0.0179 240.01)",
+          "oklch(26% 0.0179 240.01)",
+          "oklch(38% 0.0179 240.01)",
+          "oklch(49% 0.0179 240.01)",
+          "oklch(61% 0.0179 240.01)",
+          "oklch(72% 0.0179 240.01)",
+          "oklch(84% 0.0179 240.01)",
+          "oklch(95% 0.0179 240.01)"
+        ]
+      },
+      "resource-line": {
+        "role": "neutral",
+        "displayName": "Divisor de recursos",
+        "tonalRamp": [
+          "oklch(15% 0.0225 243.84)",
+          "oklch(26% 0.0225 243.84)",
+          "oklch(38% 0.0225 243.84)",
+          "oklch(49% 0.0225 243.84)",
+          "oklch(61% 0.0225 243.84)",
+          "oklch(72% 0.0225 243.84)",
+          "oklch(84% 0.0225 243.84)",
+          "oklch(95% 0.0225 243.84)"
+        ]
+      },
+      "footer-line": {
+        "role": "neutral",
+        "displayName": "Divisor del pie azul",
+        "tonalRamp": [
+          "oklch(15% 0.0539 244.41)",
+          "oklch(26% 0.0539 244.41)",
+          "oklch(38% 0.0539 244.41)",
+          "oklch(49% 0.0539 244.41)",
+          "oklch(61% 0.0539 244.41)",
+          "oklch(72% 0.0539 244.41)",
+          "oklch(84% 0.0539 244.41)",
+          "oklch(95% 0.0539 244.41)"
+        ]
+      },
+      "focus": {
+        "role": "primary",
+        "displayName": "Foco sobre claro",
+        "tonalRamp": [
+          "oklch(15% 0.1266 249.16)",
+          "oklch(26% 0.1266 249.16)",
+          "oklch(38% 0.1266 249.16)",
+          "oklch(49% 0.1266 249.16)",
+          "oklch(61% 0.1266 249.16)",
+          "oklch(72% 0.1266 249.16)",
+          "oklch(84% 0.1266 249.16)",
+          "oklch(95% 0.1266 249.16)"
+        ]
+      },
+      "focus-on-blue": {
+        "role": "primary",
+        "displayName": "Foco sobre azul",
+        "tonalRamp": [
+          "oklch(15% 0.0538 242.43)",
+          "oklch(26% 0.0538 242.43)",
+          "oklch(38% 0.0538 242.43)",
+          "oklch(49% 0.0538 242.43)",
+          "oklch(61% 0.0538 242.43)",
+          "oklch(72% 0.0538 242.43)",
+          "oklch(84% 0.0538 242.43)",
+          "oklch(95% 0.0538 242.43)"
+        ]
+      },
+      "map-unpublished": {
+        "role": "neutral",
+        "displayName": "Territorio sin fichas",
+        "tonalRamp": [
+          "oklch(15% 0.0059 239.82)",
+          "oklch(26% 0.0059 239.82)",
+          "oklch(38% 0.0059 239.82)",
+          "oklch(49% 0.0059 239.82)",
+          "oklch(61% 0.0059 239.82)",
+          "oklch(72% 0.0059 239.82)",
+          "oklch(84% 0.0059 239.82)",
+          "oklch(95% 0.0059 239.82)"
+        ]
+      },
+      "map-boundary": {
+        "role": "neutral",
+        "displayName": "Frontera cartográfica",
+        "tonalRamp": [
+          "oklch(15% 0.0509 240.97)",
+          "oklch(26% 0.0509 240.97)",
+          "oklch(38% 0.0509 240.97)",
+          "oklch(49% 0.0509 240.97)",
+          "oklch(61% 0.0509 240.97)",
+          "oklch(72% 0.0509 240.97)",
+          "oklch(84% 0.0509 240.97)",
+          "oklch(95% 0.0509 240.97)"
+        ]
+      },
+      "map-published": {
+        "role": "neutral",
+        "displayName": "Territorio con fichas",
+        "tonalRamp": [
+          "oklch(15% 0.0296 236.93)",
+          "oklch(26% 0.0296 236.93)",
+          "oklch(38% 0.0296 236.93)",
+          "oklch(49% 0.0296 236.93)",
+          "oklch(61% 0.0296 236.93)",
+          "oklch(72% 0.0296 236.93)",
+          "oklch(84% 0.0296 236.93)",
+          "oklch(95% 0.0296 236.93)"
+        ]
+      },
+      "map-hover": {
+        "role": "neutral",
+        "displayName": "Territorio en hover",
+        "tonalRamp": [
+          "oklch(15% 0.0512 240.18)",
+          "oklch(26% 0.0512 240.18)",
+          "oklch(38% 0.0512 240.18)",
+          "oklch(49% 0.0512 240.18)",
+          "oklch(61% 0.0512 240.18)",
+          "oklch(72% 0.0512 240.18)",
+          "oklch(84% 0.0512 240.18)",
+          "oklch(95% 0.0512 240.18)"
+        ]
+      },
+      "map-focus": {
+        "role": "neutral",
+        "displayName": "Foco cartográfico",
+        "tonalRamp": [
+          "oklch(15% 0.1311 64.54)",
+          "oklch(26% 0.1311 64.54)",
+          "oklch(38% 0.1311 64.54)",
+          "oklch(49% 0.1311 64.54)",
+          "oklch(61% 0.1311 64.54)",
+          "oklch(72% 0.1311 64.54)",
+          "oklch(84% 0.1311 64.54)",
+          "oklch(95% 0.1311 64.54)"
+        ]
+      },
+      "map-divider-on-blue": {
+        "role": "neutral",
+        "displayName": "Divisor de ficha cartográfica",
+        "tonalRamp": [
+          "oklch(15% 0.0713 249.19)",
+          "oklch(26% 0.0713 249.19)",
+          "oklch(38% 0.0713 249.19)",
+          "oklch(49% 0.0713 249.19)",
+          "oklch(61% 0.0713 249.19)",
+          "oklch(72% 0.0713 249.19)",
+          "oklch(84% 0.0713 249.19)",
+          "oklch(95% 0.0713 249.19)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Titular compartido",
+        "purpose": "H1 de directorio, biblioteca, blog y páginas institucionales."
+      },
+      "hero-display": {
+        "displayName": "Titular de bienvenida",
+        "purpose": "Variante del hero sobre azul; escalas responsive en DESIGN.md."
+      },
+      "headline": {
+        "displayName": "Título de sección",
+        "purpose": "H2 compartido por Home, mapa y páginas institucionales."
+      },
+      "title": {
+        "displayName": "Título de contenido",
+        "purpose": "H3 y destinos de contenido."
+      },
+      "body": {
+        "displayName": "Texto de lectura",
+        "purpose": "Párrafos y datos descriptivos."
+      },
+      "label": {
+        "displayName": "Etiqueta de acción",
+        "purpose": "Texto de botones."
+      },
+      "navigation": {
+        "displayName": "Navegación",
+        "purpose": "Enlaces de sección en escritorio."
+      },
+      "map-stat": {
+        "displayName": "Conteo cartográfico",
+        "purpose": "Cifras tabulares con alcance de los datos."
+      },
+      "map-label": {
+        "displayName": "Etiqueta territorial",
+        "purpose": "Nombre de territorio sobre el SVG."
+      },
+      "institutional-lead": {
+        "displayName": "Entrada institucional",
+        "purpose": "Frase de portada institucional."
+      },
+      "institutional-statement": {
+        "displayName": "Declaración institucional",
+        "purpose": "Misión y visión sobre superficies tonales."
+      },
+      "article-body": {
+        "displayName": "Lectura del blog",
+        "purpose": "Cuerpo de artículo, limitado a 68ch."
+      },
+      "metadata": {
+        "displayName": "Datos secundarios",
+        "purpose": "Fechas, leyendas y metadatos."
+      }
+    },
+    "shadows": [
+      {
+        "name": "mobile-navigation",
+        "value": "0 16px 28px rgb(15 44 76 / 8%)",
+        "purpose": "Separar el menú móvil abierto del contenido cubierto."
+      },
+      {
+        "name": "institutional-navigation",
+        "value": "0 18px 44px rgb(12 34 53 / 14%)",
+        "purpose": "Separar el submenú institucional de escritorio del contenido que cubre; los artículos permanecen sin sombra."
+      }
+    ],
+    "motion": [
+      {
+        "name": "state-transition",
+        "value": ".2s",
+        "purpose": "Cambios de fondo, color, borde, subrayado y flecha observados en CSS."
+      },
+      {
+        "name": "resource-arrow-hover",
+        "value": "translate(2px, -2px)",
+        "purpose": "Confirmar hover de una fila de recurso."
+      },
+      {
+        "name": "hero-arrive",
+        "value": ".65s cubic-bezier(.16,1,.3,1)",
+        "purpose": "Entrada de fotografía del hero desde 768 px sin preferencia de movimiento reducido; clip-path de inset(0 0 3% 0) a inset(0)."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation: none !important; transition: none !important; scroll-behavior: auto;",
+        "purpose": "La preferencia reduce elimina animación, transiciones y desplazamiento suave."
+      },
+      {
+        "name": "map-state-transition",
+        "value": ".18s",
+        "purpose": "Cambios de relleno y trazo del territorio."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-desktop-max",
+        "value": "1100px"
+      },
+      {
+        "name": "mobile-navigation-max",
+        "value": "1023px"
+      },
+      {
+        "name": "single-column-max",
+        "value": "767px"
+      },
+      {
+        "name": "narrow-phone-max",
+        "value": "359px"
+      },
+      {
+        "name": "hero-animation-min",
+        "value": "768px"
+      },
+      {
+        "name": "institutional-narrow-max",
+        "value": "374px"
+      },
+      {
+        "name": "compact-header-max",
+        "value": "1199px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Botón principal",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Acceso destacado sobre fondo claro. El snippet representa la variante visual del enlace.",
+      "html": "<a class=\"ds-button ds-primary\" href=\"#iglesias\">Encuentra una iglesia <svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M6 18 18 6M6 6h12v12\"/></svg></a>",
+      "css": ".ds-button{display:inline-flex;justify-content:center;align-items:center;gap:24px;min-height:54px;padding:14px 24px;border:1px solid transparent;border-radius:var(--radius-control);font-size:.9rem;font-weight:700;line-height:1.5;text-decoration:none;font-family:var(--font-manrope),sans-serif;transition:background-color .2s,color .2s,border-color .2s;}.ds-button svg{width:20px;height:20px;flex-shrink:0;}.ds-button:focus-visible{outline:3px solid #327cbf;outline-offset:5px;border-radius:3px;}@media(prefers-reduced-motion:reduce){.ds-button,.ds-text-link,.ds-resource h3,.ds-resource>svg{transition:none;}}.ds-primary{background:var(--blue);color:white;}.ds-primary:hover{background:var(--blue-hover);}"
+    },
+    {
+      "name": "Botón de contorno pequeño",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Variante de contorno combinada con button-small, como en la cabecera.",
+      "html": "<a class=\"ds-button ds-outline ds-small\" href=\"#contacto\">Hablemos</a>",
+      "css": ".ds-button{display:inline-flex;justify-content:center;align-items:center;gap:24px;min-height:54px;padding:14px 24px;border:1px solid transparent;border-radius:var(--radius-control);font-size:.9rem;font-weight:700;line-height:1.5;text-decoration:none;font-family:var(--font-manrope),sans-serif;transition:background-color .2s,color .2s,border-color .2s;}.ds-button svg{width:20px;height:20px;flex-shrink:0;}.ds-button:focus-visible{outline:3px solid #327cbf;outline-offset:5px;border-radius:3px;}@media(prefers-reduced-motion:reduce){.ds-button,.ds-text-link,.ds-resource h3,.ds-resource>svg{transition:none;}}.ds-outline{color:var(--blue);border-color:var(--control-border);background:transparent;}.ds-outline:hover{background:var(--pale);border-color:var(--blue);}.ds-small{min-height:46px;padding:10px 21px;font-size:.85rem;}"
+    },
+    {
+      "name": "Botón claro",
+      "kind": "button",
+      "refersTo": "button-light",
+      "description": "Acción en el bloque azul de congregaciones; incluye ese fondo de contexto.",
+      "html": "<div class=\"ds-blue-context\"><a class=\"ds-button ds-light\" href=\"#iglesias\">Ver directorio de iglesias <svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M6 18 18 6M6 6h12v12\"/></svg></a></div>",
+      "css": ".ds-button{display:inline-flex;justify-content:center;align-items:center;gap:24px;min-height:54px;padding:14px 24px;border:1px solid transparent;border-radius:var(--radius-control);font-size:.9rem;font-weight:700;line-height:1.5;text-decoration:none;font-family:var(--font-manrope),sans-serif;transition:background-color .2s,color .2s,border-color .2s;}.ds-button svg{width:20px;height:20px;flex-shrink:0;}.ds-button:focus-visible{outline:3px solid #327cbf;outline-offset:5px;border-radius:3px;}@media(prefers-reduced-motion:reduce){.ds-button,.ds-text-link,.ds-resource h3,.ds-resource>svg{transition:none;}}.ds-blue-context{padding:24px;background:var(--blue);}.ds-light{background:white;color:var(--blue);}.ds-light:hover{background:#dfeaf4;}.ds-blue-context .ds-button:focus-visible{outline-color:#b6d9f5;}"
+    },
+    {
+      "name": "Enlace de texto",
+      "kind": "custom",
+      "refersTo": "text-link",
+      "description": "Acceso textual con flecha, subrayado en hover y contorno de foco.",
+      "html": "<a class=\"ds-text-link\" href=\"#nosotros\">Nuestra historia <svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M6 18 18 6M6 6h12v12\"/></svg></a>",
+      "css": ".ds-text-link{display:inline-flex;align-items:center;gap:12px;width:fit-content;min-height:44px;color:var(--blue);font-family:var(--font-manrope),sans-serif;font-size:.9rem;font-weight:700;line-height:1.75;text-decoration:underline;text-decoration-color:transparent;text-underline-offset:5px;transition:text-decoration-color .2s;}.ds-text-link:hover{text-decoration-color:currentColor;}.ds-text-link svg{width:17px;height:17px;flex-shrink:0;}.ds-text-link:focus-visible{outline:3px solid #327cbf;outline-offset:5px;border-radius:3px;}@media(prefers-reduced-motion:reduce){.ds-button,.ds-text-link,.ds-resource h3,.ds-resource>svg{transition:none;}}"
+    },
+    {
+      "name": "Navegación de escritorio",
+      "kind": "nav",
+      "refersTo": "desktop-navigation",
+      "description": "Enlaces de sección sobre blanco; la ruta activa se distingue mediante aria-current, énfasis azul y subrayado.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Navegación principal\"><a href=\"/quienes-somos\" aria-current=\"page\">Quiénes somos</a><a href=\"/iglesias\">Iglesias</a><a href=\"/#comunidad\">Comunidad</a><a href=\"/blog\">Blog</a><a href=\"/#recursos\">Recursos</a></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;gap:26px;background:white;color:var(--ink);font-family:var(--font-manrope),sans-serif;}.ds-nav a{display:inline-flex;align-items:center;min-height:44px;font-size:.87rem;font-weight:600;line-height:1.75;color:inherit;text-decoration:none;}.ds-nav a:hover{color:var(--accent);}.ds-nav a:focus-visible{outline:3px solid #327cbf;outline-offset:5px;border-radius:3px;}.ds-nav a[aria-current=\"page\"]{color:var(--accent);text-decoration:underline;text-underline-offset:5px;}"
+    },
+    {
+      "name": "Artículo abierto de ministerio",
+      "kind": "card",
+      "refersTo": "ministry",
+      "description": "Contenido abierto con divisor superior y enlaces. Card es solo la categoría del panel, no una caja elevada.",
+      "html": "<article class=\"ds-ministry\"><h3>Educación y formación</h3><p>Consulta nuestras áreas de formación, discipulado y desarrollo del liderazgo.</p><div class=\"ds-ministry-links\"><a class=\"ds-text-link\" href=\"#comunidad\">Explorar educación <svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M6 18 18 6M6 6h12v12\"/></svg></a></div></article>",
+      "css": ".ds-ministry{border-top:1px solid var(--control-border);padding-top:30px;display:flex;flex-direction:column;color:var(--ink);font-family:var(--font-manrope),sans-serif;}.ds-ministry h3{margin:0;font-size:1.3rem;font-weight:700;line-height:1.4;letter-spacing:-.02em;text-wrap:balance;}.ds-ministry p{margin:15px 0 0;color:var(--muted);font-size:.93rem;line-height:1.75;max-width:37ch;}.ds-ministry-links{margin-top:20px;display:flex;flex-direction:column;align-items:flex-start;}.ds-text-link{display:inline-flex;align-items:center;gap:12px;width:fit-content;min-height:44px;color:var(--blue);font-size:.9rem;font-weight:700;line-height:1.75;text-decoration:underline;text-decoration-color:transparent;text-underline-offset:5px;transition:text-decoration-color .2s;}.ds-text-link:hover{text-decoration-color:currentColor;}.ds-text-link svg{width:17px;height:17px;flex-shrink:0;}.ds-text-link:focus-visible{outline:3px solid #327cbf;outline-offset:5px;border-radius:3px;}@media(prefers-reduced-motion:reduce){.ds-button,.ds-text-link,.ds-resource h3,.ds-resource>svg{transition:none;}}"
+    },
+    {
+      "name": "Fila de recurso",
+      "kind": "custom",
+      "refersTo": "resource-link",
+      "description": "Destino con título, descripción y flecha en la superficie pálida de recursos.",
+      "html": "<div class=\"ds-resource-context\"><a class=\"ds-resource\" href=\"#recursos\"><div><h3>Biblioteca</h3><p>Materiales, documentos y recursos compartidos.</p></div><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M6 18 18 6M6 6h12v12\"/></svg></a></div>",
+      "css": ".ds-resource-context{padding:24px;background:var(--pale);}.ds-resource{display:flex;justify-content:space-between;gap:24px;align-items:center;border-bottom:1px solid #c9d7e3;padding-block:24px;color:var(--ink);text-decoration:none;font-family:var(--font-manrope),sans-serif;}.ds-resource h3{margin:0;font-size:1.3rem;font-weight:700;line-height:1.4;letter-spacing:-.02em;transition:color .2s;}.ds-resource p{margin:8px 0 0;color:var(--muted);font-size:.9rem;line-height:1.75;max-width:40ch;}.ds-resource>svg{width:22px;height:22px;flex-shrink:0;transition:transform .2s;}.ds-resource:hover h3{color:var(--accent);}.ds-resource:hover>svg{transform:translate(2px,-2px);}.ds-resource:focus-visible{outline:3px solid #327cbf;outline-offset:5px;border-radius:3px;}@media(prefers-reduced-motion:reduce){.ds-button,.ds-text-link,.ds-resource h3,.ds-resource>svg{transition:none;}}"
+    },
+    {
+      "name": "Recorridos de bienvenida",
+      "kind": "custom",
+      "refersTo": "welcome-paths",
+      "description": "Dos enlaces de igual prioridad, en columnas o apilados según el ancho.",
+      "html": "<div class=\"ds-paths\"><a href=\"#nosotros\"><span>Quiero conocer la iglesia</span><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 12h15M13 5l7 7-7 7\"/></svg></a><a href=\"#recursos\"><span>Busco recursos para mi comunidad</span><svg aria-hidden=\"true\" width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 12h15M13 5l7 7-7 7\"/></svg></a></div>",
+      "css": ".ds-paths{display:grid;grid-template-columns:1fr 1fr;padding-block:28px;border-bottom:1px solid var(--line);gap:40px;color:var(--ink);font-family:var(--font-manrope),sans-serif;}.ds-paths a{display:flex;justify-content:space-between;align-items:center;gap:20px;min-height:44px;font-size:.95rem;font-weight:600;line-height:1.75;text-decoration:none;color:inherit;}.ds-paths a+a{border-left:1px solid var(--line);padding-left:40px;}.ds-paths a:hover{color:var(--accent);}.ds-paths svg{width:20px;height:20px;flex-shrink:0;}.ds-paths a:focus-visible{outline:3px solid #327cbf;outline-offset:5px;border-radius:3px;}@media(max-width:767px){.ds-paths{grid-template-columns:1fr;gap:0;padding-block:0;}.ds-paths a{padding-block:18px;font-size:.84rem;gap:15px;}.ds-paths a+a{border-left:0;border-top:1px solid var(--line);padding-left:0;}}"
+    },
+    {
+      "name": "Selector mensual institucional",
+      "kind": "input",
+      "refersTo": "calendar-month-select",
+      "description": "Control nativo del calendario con etiqueta visible y foco global. El snippet muestra el control; React actualiza actividades, anuncio accesible y documento original en el sitio.",
+      "html": "<div class=\"ds-calendar-control\"><label for=\"ds-calendar-month\">Consultar un mes</label><select id=\"ds-calendar-month\"><option value=\"0\">Enero de 2026</option><option value=\"1\">Febrero de 2026</option><option value=\"2\">Marzo de 2026</option><option value=\"3\">Abril de 2026</option><option value=\"4\">Mayo de 2026</option><option value=\"5\">Junio de 2026</option><option value=\"6\">Julio de 2026</option><option value=\"7\">Agosto de 2026</option><option value=\"8\">Septiembre de 2026</option><option value=\"9\">Octubre de 2026</option><option value=\"10\">Noviembre de 2026</option><option value=\"11\">Diciembre de 2026</option></select></div>",
+      "css": ".ds-calendar-control{font-family:var(--font-manrope),sans-serif;color:var(--ink);}.ds-calendar-control label{display:block;font-size:.875rem;font-weight:700;line-height:1.75;margin-bottom:10px;}.ds-calendar-control select{font-family:var(--font-manrope),sans-serif;font-size:16px;font-weight:400;line-height:1.75;color:var(--ink);background:white;padding:12px 42px 12px 16px;border:1px solid var(--control-border);border-radius:var(--radius-control);min-height:52px;}.ds-calendar-control select:focus-visible{outline:3px solid #327cbf;outline-offset:5px;border-radius:3px;}.ds-calendar-control select:hover{border-color:var(--blue);}"
+    },
+    {
+      "name": "Búsqueda de catálogo",
+      "kind": "input",
+      "refersTo": "search-input",
+      "description": "Campo compartido por directorio y biblioteca, con etiqueta visible y borde definido. La búsqueda real pertenece al componente React.",
+      "html": "<div class=\"ds-search\"><label for=\"ds-search-field\">Buscar en la biblioteca</label><div class=\"ds-search-field\"><svg aria-hidden=\"true\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" stroke-linecap=\"round\"><circle cx=\"10.8\" cy=\"10.8\" r=\"6.8\"/><path d=\"m16 16 4 4\"/></svg><input id=\"ds-search-field\" type=\"search\" placeholder=\"Buscar recursos\" /></div></div>",
+      "css": ".ds-search{font-family:var(--font-manrope),sans-serif;color:var(--ink);max-width:440px;}.ds-search label{display:block;font-size:.875rem;font-weight:700;line-height:1.75;margin-bottom:10px;}.ds-search-field{position:relative;}.ds-search-field>svg{position:absolute;inset:17px auto auto 17px;width:21px;height:21px;color:var(--muted);pointer-events:none;}.ds-search input{width:100%;min-height:56px;padding:14px 16px 14px 49px;border:1px solid var(--control-border);border-radius:var(--radius-control);background:white;color:var(--ink);font-family:var(--font-manrope),sans-serif;font-size:1rem;line-height:1.75;}.ds-search input::placeholder{color:var(--muted);opacity:1;}.ds-search input:hover{border-color:var(--blue);}.ds-search input:focus-visible{outline:3px solid #327cbf;outline-offset:5px;border-radius:3px;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Presencia institucional, comunidad visible",
+    "overview": "El sistema expresa una organización nacional vinculada a una comunidad internacional mediante azul profundo, proporciones estables, fotografía documental y jerarquía tipográfica compartida. La presentación es formal, sofisticada y contemporánea; la cercanía permanece en las personas reales, la bienvenida y los destinos comprensibles. El espacio en blanco, las líneas discretas y las superficies tonales ordenan la información.\n\nEl usuario solicitó este refinamiento para todo el sitio. Evoluciona la dirección inicial «institucional y cercana» y conserva logo, Manrope, contenido y funciones. No hubo una composición generada aprobada ni ratificación del manual de marca. Esta documentación describe el código vigente; las verificaciones de entregas anteriores conservan valor histórico y no certifican el refinamiento actual.",
+    "keyCharacteristics": [
+      "Azul profundo en barra institucional, bienvenida, llamadas destacadas y pie de página.",
+      "Fotografías documentales y logo auténtico sobre superficies que aseguran su lectura.",
+      "Escala tipográfica, controles y ritmo compartidos por quince rutas públicas de contenido.",
+      "Lectura abierta con divisores, bloques tonales selectivos y jerarquías claras.",
+      "Prioridad compartida para visitantes y miembros, reflujo estrecho y foco de teclado visible."
+    ],
+    "rules": [],
+    "dos": [
+      "Do conservar logo, fotografías reales y atribuciones comprobables; consultar docs/ACTIVOS-UTILIZADOS.md al cambiar medios.",
+      "Do reutilizar azul profundo, Manrope local, escala compartida, radios y estados del CSS, pendientes de ratificación con el manual de marca.",
+      "Do mantener superficies abiertas, bloques tonales selectivos, lectura clara y enlaces con nombres concretos.",
+      "Do preservar foco visible según superficie, enlace de salto, reflujo estrecho y movimiento reducido.",
+      "Do mantener ambos públicos y las funciones de mapa, filtros, biblioteca, blog, navegación institucional y calendario."
+    ],
+    "donts": [
+      "Don't presentar la dirección solicitada como aprobación de una composición generada ni ratificación del manual de marca.",
+      "Don't inventar testimonios, cifras, eventos, horarios, nombres o cargos para completar una composición.",
+      "Don't sustituir fotografías de la comunidad por personas generadas, recrear el logo ni colocarlo sin soporte claro sobre azul.",
+      "Don't añadir sombras a cada bloque, tarjetas envolventes o estados de interfaz ausentes del producto.",
+      "Don't presentar enlaces externos o archivos protegidos como contenidos ya migrados ni incorporar formularios simulados."
+    ]
+  }
+}

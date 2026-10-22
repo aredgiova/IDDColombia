@@ -1,0 +1,64 @@
+{
+  "checkedAt": "2026-10-17T03:56:47.095Z",
+  "results": [
+    {
+      "path": "/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "cacheControl": "s-maxage=31536000",
+      "h1Count": 1,
+      "hasCanonical": true,
+      "previewNoindex": true,
+      "contractPreserved": true
+    },
+    {
+      "path": "/api/health",
+      "status": 200,
+      "contentType": "application/json",
+      "cacheControl": "no-store",
+      "body": {
+        "success": true,
+        "status": "ok",
+        "service": "web-api"
+      }
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "contentType": "text/plain",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "body": "User-Agent: *\nDisallow: /\n\n"
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "contentType": "application/xml",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n<url>\n<loc>https://www.iglesiadedioscolombia.com/</loc>\n<changefreq>monthly</changefreq>\n<priority>1</priority>\n</url>\n</urlset>\n"
+    },
+    {
+      "path": "/icon",
+      "status": 200,
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/opengraph-image",
+      "status": 200,
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/twitter-image",
+      "status": 200,
+      "contentType": "image/png",
+      "cacheControl": "public, max-age=0, must-revalidate"
+    },
+    {
+      "path": "/pagina-inexistente",
+      "status": 404,
+      "contentType": "text/html; charset=utf-8",
+      "cacheControl": "private, no-cache, no-store, max-age=0, must-revalidate"
+    }
+  ]
+}
